@@ -1,0 +1,16 @@
+[
+  {
+    "item": "minecraft:experience_bottle",
+    "count": 1,
+    "minCount": 1,
+    "maxCount": 1,
+    "chance": 0.1
+  },
+  {
+    "item": "minecraft:emerald",
+    "count": 1,
+    "minCount": 1,
+    "maxCount": 2,
+    "chance": 0.05
+  }
+]

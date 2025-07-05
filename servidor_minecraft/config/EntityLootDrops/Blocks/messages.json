@@ -1,0 +1,18 @@
+{
+  "enable": {
+    "halloween": "§6[Block Events] §cHalloween event has been enabled!",
+    "winter": "§6[Block Events] §bWinter event has been enabled!",
+    "doubledrops": "§6[Block Events] §aDouble drops event has been enabled! §7(2x drop amounts)",
+    "easter": "§6[Block Events] §dEaster event has been enabled!",
+    "dropchance": "§6[Block Events] §aDouble drop chance event has been enabled! §7(2x drop rates)",
+    "summer": "§6[Block Events] §eSummer event has been enabled!"
+  },
+  "disable": {
+    "halloween": "§6[Block Events] §7alloween event has been disabled!",
+    "winter": "§6[Block Events] §7Winter event has been disabled!",
+    "doubledrops": "§6[Block Events] §7Double drops event has been disabled!",
+    "easter": "§6[Block Events] §7Easter event has been disabled!",
+    "dropchance": "§6[Block Events] §7Double drop chance event has been disabled!",
+    "summer": "§6[Block Events] §7Summer event has been disabled!"
+  }
+}

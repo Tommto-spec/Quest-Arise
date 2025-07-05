@@ -1,0 +1,19 @@
+[
+  {
+    "name": "stone_to_diamond",
+    "type": "stonecutting",
+    "enabled": false,
+    "_comment": "cut stone into diamond (magical!)",
+    "group": "alchemy",
+    "outputItem": "minecraft:diamond",
+    "outputCount": 1,
+    "outputNbt": "",
+    "input": "minecraft:stone",
+    "experience": 0.1,
+    "cookingTime": 200,
+    "craftCommands": [
+      "playsound minecraft:block.note_block.pling player @p ~ ~ ~ 1 2"
+    ],
+    "commandChance": 100.0
+  }
+]

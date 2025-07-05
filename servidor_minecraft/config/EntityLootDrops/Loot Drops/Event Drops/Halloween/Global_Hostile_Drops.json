@@ -1,0 +1,19 @@
+[
+  {
+    "itemId": "minecraft:pumpkin",
+    "dropChance": 35.0,
+    "minAmount": 1,
+    "maxAmount": 2,
+    "requiredTime": "night",
+    "commandChance": 100.0,
+    "dropCommand": "tellraw @a {\"text\":\"A spooky pumpkin appears!\",\"color\":\"dark_purple\"}",
+    "dropCommandChance": 100.0,
+    "_comment": "Halloween event - Spooky drops from hostile mobs at night",
+    "requirePlayerKill": true,
+    "allowDefaultDrops": true,
+    "allowModIDs": [],
+    "extraDropChance": 0.0,
+    "extraAmountMin": 1,
+    "extraAmountMax": 1
+  }
+]

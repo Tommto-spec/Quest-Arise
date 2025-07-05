@@ -1,0 +1,391 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dragones"
+	group: ""
+	icon: "iceandfire:dragon_skull_fire"
+	id: "3786DA170DFA4D2B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "iceandfire:bestiary"
+			id: "4B391BDF8A830E78"
+			rewards: [{
+				id: "58DEBDF52DC5034E"
+				item: "iceandfire:bestiary"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BFC47601C8CF417"
+				title: "Bestiario"
+				type: "checkmark"
+			}]
+			title: "Bestiario"
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B391BDF8A830E78"]
+			description: ["En el atril del bestiario podras aumentar el numero de capitulos que este libro contiene. Cada capítulo te dara mayor informacion sobre a que tipo de criaturas te enfrentas. Es importante conocer a cada una de ella"]
+			id: "2A28C4ECC9E033EA"
+			rewards: [
+				{
+					id: "2AA76E412F5840B6"
+					item: "iceandfire:lectern"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "205D7205C5750061"
+					item: "iceandfire:manuscript"
+					type: "item"
+				}
+			]
+			subtitle: "Aumenta el conocimiento"
+			tasks: [{
+				id: "7D8ACA3D9216A033"
+				item: "iceandfire:bestiary"
+				type: "item"
+			}]
+			title: "Atril del bestiario"
+			x: -11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4B391BDF8A830E78"]
+			description: [
+				"Los dragones de fuego aparecen en la mayoria de biomas, de distintas categorias, y gracias al mine and slash, de distintos niveles."
+				"Hay 5 categorias de dragones, siendo la categoria 1 las mas debil y pequeña (no se encuentra mayormente), y la categoria 5, los dragones mas grandes, fuertes y mas peligrosos. La mayor parte de dragones que aparecen en la superficie, son dragones de categoria 3 o menor, Al matar a estos dragones, con la mano vacía podras obtener los objetos que te deja el dragon al morir, siendo estos: Huesos, Carne, Escamas(con las que podras hacer una armadura), su Cráneo y su Corazón, siendo este último posiblemente una pieza clave para el futuro."
+			]
+			id: "38522E4948F03D5F"
+			rewards: [{
+				command: "/mine_and_slash give exp @s 1000"
+				icon: "minecraft:experience_bottle"
+				id: "03A317B446E6C69D"
+				title: "1000 XP"
+				type: "command"
+			}]
+			subtitle: "Dragón de fuego"
+			tasks: [{
+				entity: "iceandfire:fire_dragon"
+				icon: "iceandfire:fire_dragon_heart"
+				id: "4183445CEB2902CC"
+				title: "Derrota un dragón de fuego"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Cazador de dragones"
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38522E4948F03D5F"]
+			description: ["Puedes obtener la sangre del dragon al darle click derecho sobre un dragon muerto con un frasco vacío, este dragon tiene que tener escamas, pero el extraer su sangre, tambien reduce la cantidad de escamas que te da. Esta sangre sirve para hacer una espada elemental."]
+			id: "5E4A0A71B5A98443"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D9D73EBCE03771B"
+				table_id: 331327166996838562L
+				type: "choice"
+			}]
+			subtitle: "Su sangre es importante"
+			tasks: [{
+				id: "721A623E7ADBE972"
+				item: "iceandfire:fire_dragon_blood"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38522E4948F03D5F"]
+			description: ["Al darle click derecho con la mano vacía a un dragon muerto, este te soltará sus escamas, las cuales te serviran para crear una armadura, que dependiendo del dragón, puede darte resistencia a algun elemento, ademas de ser resistente (puede ser encantada)."]
+			icon: "iceandfire:dragonscales_red"
+			id: "431A934A1FA36BAF"
+			rewards: [{
+				id: "78468D8912E9C23F"
+				item: "iceandfire:dragonscale_red"
+				type: "item"
+			}]
+			subtitle: "Sus escamas  sirven demasiado"
+			tasks: [{
+				id: "386FC95DA0FAAE15"
+				title: "Escamas"
+				type: "checkmark"
+			}]
+			title: "Dragon  Scales"
+			x: -13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["38522E4948F03D5F"]
+			description: ["Al matar a un dragón de categoria 4 o 5 (que normalmente se encuentran en nidos subterraneos), y extraes los recursos de su cadaver, hay la posibilidad de que obtengas un huevo de dragón, los cuáles podras utilizar para tener tu propio dragon. Para un dragon de fuego es esencial siempre mantenerlo caliente para que eclosione, poniendo una piedra del nether o netherrack, y prendiendo esta con un mechero, podras obtener una fuente de calor infinita, solo deberas poner el huevo encima, y dentro de un tiempo este huevo eclosionará, relacionandose con el jugadors mas cercano (que no te lo roben)."]
+			icon: "iceandfire:dragonegg_red"
+			id: "4E1AE8ABB7D70562"
+			rewards: [
+				{
+					id: "4DA25080B7157C5B"
+					item: "iceandfire:dragon_horn"
+					type: "item"
+				}
+				{
+					id: "3441CBABDB412732"
+					item: "iceandfire:summoning_crystal_fire"
+					type: "item"
+				}
+				{
+					command: "/mine_and_slash give exp @s 700"
+					icon: "minecraft:experience_bottle"
+					id: "45205F059F9C5E50"
+					title: "700 XP"
+					type: "command"
+				}
+			]
+			subtitle: "Cría tu propio dragón"
+			tasks: [{
+				id: "01F3E0408A17C608"
+				title: "Madre de dragones"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4B391BDF8A830E78"]
+			description: [
+				"Los dragones de hielo aparecen en los biomas frios y nevados, de distintas categorias, y gracias al mine and slash, de distintos niveles."
+				"Hay 5 categorias de dragones, siendo la categoria 1 las mas debil y pequeña (no se encuentra mayormente), y la categoria 5, los dragones mas grandes, fuertes y mas peligrosos. La mayor parte de dragones que aparecen en la superficie, son dragones de categoria 3 o menor, Al matar a estos dragones, con la mano vacía podras obtener los objetos que te deja el dragon al morir, siendo estos: Huesos, Carne, Escamas(con las que podras hacer una armadura), su Cráneo y su Corazón, siendo este último posiblemente una pieza clave para el futuro."
+			]
+			id: "6C7B223326151F0B"
+			rewards: [{
+				command: "/mine_and_slash give exp @s 1000"
+				icon: "minecraft:experience_bottle"
+				id: "6CCCF836C645C63A"
+				title: "1000 XP"
+				type: "command"
+			}]
+			subtitle: "Dragón de hielo"
+			tasks: [{
+				entity: "iceandfire:ice_dragon"
+				icon: "iceandfire:ice_dragon_heart"
+				id: "1FD1B16FB1313F67"
+				title: "Derrota un dragón de hielo"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Cazador de dragones"
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6C7B223326151F0B"]
+			description: ["Al darle click derecho con la mano vacía a un dragon muerto, este te soltará sus escamas, las cuales te serviran para crear una armadura, que dependiendo del dragón, puede darte resistencia a algun elemento, ademas de ser resistente (puede ser encantada)."]
+			icon: "iceandfire:dragonscales_blue"
+			id: "0ACE5B0AABABEF32"
+			rewards: [{
+				id: "14AC31C66298F7E9"
+				item: "iceandfire:dragonscale_blue"
+				type: "item"
+			}]
+			subtitle: "Sus escamas sirven demasiado"
+			tasks: [{
+				id: "0C018C7680AB22A4"
+				title: "escamas"
+				type: "checkmark"
+			}]
+			title: "Dragon Scales"
+			x: -11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6C7B223326151F0B"]
+			description: ["Puedes obtener la sangre del dragon al darle click derecho sobre un dragon muerto con un frasco vacío, este dragon tiene que tener escamas, pero el extraer su sangre, tambien reduce la cantidad de escamas que te da. Esta sangre sirve para hacer una espada elemental."]
+			id: "7A8E9D73BDF1163A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "507DC30A5B204AAF"
+				table_id: 6118184378673928243L
+				type: "choice"
+			}]
+			subtitle: "Su sangre es importante"
+			tasks: [{
+				id: "3B73988B06B52CAF"
+				item: "iceandfire:ice_dragon_blood"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6C7B223326151F0B"]
+			description: ["Al matar a un dragón de categoria 4 o 5 (que normalmente se encuentran en nidos subterraneos), y extraes los recursos de su cadaver, hay la posibilidad de que obtengas un huevo de dragón, los cuáles podras utilizar para tener tu propio dragon. Para un dragon de Hielo necesitarás un espacio con agua, solo deberas poner el huevo en el agua, esta se congelara, y dentro de un tiempo este huevo eclosionará, relacionandose con el jugador mas cercano (que no te lo roben)."]
+			icon: "iceandfire:dragonegg_blue"
+			id: "13C67668259239D1"
+			rewards: [
+				{
+					id: "5016E19345136BA3"
+					item: "iceandfire:dragon_horn"
+					type: "item"
+				}
+				{
+					id: "6354F2D95AB8E0DF"
+					item: "iceandfire:summoning_crystal_ice"
+					type: "item"
+				}
+				{
+					command: "/mine_and_slash give exp @s 700"
+					icon: "minecraft:experience_bottle"
+					id: "06A2A97A9E78C795"
+					title: "700 XP"
+					type: "command"
+				}
+			]
+			subtitle: "Cría tu propio dragon"
+			tasks: [{
+				id: "0D5807071BD04FD2"
+				title: "Madre de dragones"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4B391BDF8A830E78"]
+			description: [
+				"Los dragones Eléctricos aparecen en los biomas de Sabana, Jungla y Meseta, de distintas categorias, y gracias al mine and slash, de distintos niveles."
+				"Hay 5 categorias de dragones, siendo la categoria 1 las mas debil y pequeña (no se encuentra mayormente), y la categoria 5, los dragones mas grandes, fuertes y mas peligrosos. La mayor parte de dragones que aparecen en la superficie, son dragones de categoria 3 o menor, Al matar a estos dragones, con la mano vacía podras obtener los objetos que te deja el dragon al morir, siendo estos: Huesos, Carne, Escamas(con las que podras hacer una armadura), su Cráneo y su Corazón, siendo este último posiblemente una pieza clave para el futuro."
+			]
+			id: "2904C10560D9A924"
+			rewards: [{
+				command: "/mine_and_slash give exp @s 1000"
+				icon: "minecraft:experience_bottle"
+				id: "4449CAE17B2F3D3F"
+				title: "1000 XP"
+				type: "command"
+			}]
+			subtitle: "Dragón Eléctrico"
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				icon: "iceandfire:lightning_dragon_heart"
+				id: "31F9801DDC796517"
+				title: "Derrota un dragon eléctrico"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Cazador de dragones"
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2904C10560D9A924"]
+			description: ["Al darle click derecho con la mano vacía a un dragon muerto, este te soltará sus escamas, las cuales te serviran para crear una armadura, que dependiendo del dragón, puede darte resistencia a algun elemento, ademas de ser resistente (puede ser encantada)."]
+			icon: "iceandfire:dragonscales_electric"
+			id: "49864610105685E6"
+			rewards: [{
+				id: "309A8A827EA719A3"
+				item: "iceandfire:dragonscale_amythest"
+				type: "item"
+			}]
+			subtitle: "Sus escamas sirven demasiado"
+			tasks: [{
+				id: "25915B166EF7875A"
+				title: "Dragon Scales"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2904C10560D9A924"]
+			description: ["Puedes obtener la sangre del dragon al darle click derecho sobre un dragon muerto con un frasco vacío, este dragon tiene que tener escamas, pero el extraer su sangre, tambien reduce la cantidad de escamas que te da. Esta sangre sirve para hacer una espada elemental."]
+			id: "1D4DCC75446B6138"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50E69804E7F81BAD"
+				table_id: 8473245731104398064L
+				type: "choice"
+			}]
+			subtitle: "Su sangre es importante"
+			tasks: [{
+				id: "1561711F70612DD6"
+				item: "iceandfire:lightning_dragon_blood"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2904C10560D9A924"]
+			description: ["Al matar a un dragón de categoria 4 o 5 (que normalmente se encuentran en nidos subterraneos), y extraes los recursos de su cadaver, hay la posibilidad de que obtengas un huevo de dragón, los cuáles podras utilizar para tener tu propio dragon. Para un dragon eléctrico es esencial que llueva, solo debes poner el huevo debajo de la lluvia (es mejor si es una tormenta), y dentro de un tiempo este huevo eclosionará, relacionandose con el jugador mas cercano (que no te lo roben)."]
+			icon: "iceandfire:dragonegg_electric"
+			id: "07F0807A207B5D67"
+			rewards: [
+				{
+					id: "66048B9D8A298D04"
+					item: "iceandfire:dragon_horn"
+					type: "item"
+				}
+				{
+					id: "5C3D0941FCCEE4D8"
+					item: "iceandfire:summoning_crystal_lightning"
+					type: "item"
+				}
+				{
+					command: "/mine_and_slash give exp @s 700"
+					icon: "minecraft:experience_bottle"
+					id: "263CE27ABC013A95"
+					title: "700 XP"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "6B1752C26963B57C"
+				title: "Madre de dragones"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4B391BDF8A830E78"]
+			description: ["Este bloque es útil para encadenar a los dragones, Casi todos los bloques se rompen cuando los amarras a un dragón, sin embargo el muro de hueso de dragón no se rompera"]
+			icon: "iceandfire:dragon_bone_wall"
+			id: "51077F7789759520"
+			rewards: [{
+				id: "2105F3380CDD75D2"
+				item: "iceandfire:dragon_bone_wall"
+				type: "item"
+			}]
+			subtitle: "Bloque indestructible por los dragones"
+			tasks: [{
+				id: "698A60C720739FC8"
+				title: "Muro de dragón"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B391BDF8A830E78"]
+			description: ["Con esta cadena podras hacer que el dragón se mantenga en un solo lugar (usa el muro de hueso de dragón), de esta manera puede ser mas facil acabar con él o usarlo para una forja de dragón"]
+			id: "29901C8152CC0351"
+			rewards: [{
+				command: "/mine_and_slash give exp @s 200"
+				icon: "minecraft:experience_bottle"
+				id: "1D3553C684A41E66"
+				title: "200 xp"
+				type: "command"
+			}]
+			tasks: [{
+				id: "5BA69A2CD4EC13B6"
+				item: "iceandfire:chain"
+				type: "item"
+			}]
+			title: "Cadena"
+			x: -7.5d
+			y: -1.5d
+		}
+	]
+	title: "Dragones"
+}

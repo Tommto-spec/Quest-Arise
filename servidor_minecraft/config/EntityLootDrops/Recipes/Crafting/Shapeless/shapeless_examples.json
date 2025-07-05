@@ -1,0 +1,66 @@
+[
+  {
+    "name": "golden_apple_easy",
+    "type": "shapeless",
+    "enabled": false,
+    "_comment": "easier golden apple recipe - shows mixed string and object formats",
+    "group": "food",
+    "outputItem": "minecraft:golden_apple",
+    "outputCount": 1,
+    "outputNbt": "",
+    "ingredients": [
+      "minecraft:apple",
+      {
+        "item": "minecraft:gold_ingot"
+      }
+    ],
+    "experience": 0.1,
+    "cookingTime": 200,
+    "craftCommands": [
+      "particle minecraft:end_rod ~ ~ ~ 0.5 0.5 0.5 0.1 20"
+    ],
+    "commandChance": 50.0
+  },
+  {
+    "name": "quick_bread",
+    "type": "shapeless",
+    "enabled": false,
+    "_comment": "quick bread recipe with water bucket - uses string format",
+    "group": "food",
+    "outputItem": "minecraft:bread",
+    "outputCount": 3,
+    "outputNbt": "",
+    "ingredients": [
+      "minecraft:wheat",
+      "minecraft:wheat",
+      "minecraft:water_bucket"
+    ],
+    "experience": 0.1,
+    "cookingTime": 200,
+    "craftCommands": [
+      "playsound minecraft:entity.player.burp player @p ~ ~ ~ 1 1"
+    ],
+    "commandChance": 25.0
+  },
+  {
+    "name": "any_wood_sticks",
+    "type": "shapeless",
+    "enabled": false,
+    "_comment": "sticks from any log using minecraft:logs tag",
+    "group": "materials",
+    "outputItem": "minecraft:stick",
+    "outputCount": 8,
+    "outputNbt": "",
+    "ingredients": [
+      {
+        "tag": "minecraft:logs"
+      }
+    ],
+    "experience": 0.1,
+    "cookingTime": 200,
+    "craftCommands": [
+      "tellraw @p {\"text\":\"Made sticks from any log!\",\"color\":\"yellow\"}"
+    ],
+    "commandChance": 100.0
+  }
+]

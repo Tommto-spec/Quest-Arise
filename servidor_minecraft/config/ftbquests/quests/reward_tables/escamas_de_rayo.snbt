@@ -1,0 +1,12 @@
+{
+	id: "7597041969129AF0"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ count: 24, item: "iceandfire:dragonscales_electric" }
+		{ count: 24, item: "iceandfire:dragonscales_amythest" }
+		{ count: 24, item: "iceandfire:dragonscales_copper" }
+		{ count: 24, item: "iceandfire:dragonscales_black" }
+	]
+	title: "escamas de rayo"
+}

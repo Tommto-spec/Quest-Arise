@@ -1,0 +1,42 @@
+[
+  {
+    "name": "night_fishing_bonus",
+    "timeOfDay": "night",
+    "chance": 0.15,
+    "minFishingLevel": 0,
+    "requiresLure": false,
+    "requiresLuckOfSea": false,
+    "rewards": [
+      {
+        "item": "minecraft:glowstone_dust",
+        "count": 1,
+        "minCount": 1,
+        "maxCount": 3,
+        "chance": 0.8
+      }
+    ],
+    "commands": [
+      "tellraw {player} {\"text\":\"The night brings mysterious catches...\",\"color\":\"dark_purple\"}"
+    ]
+  },
+  {
+    "name": "rainy_day_catch",
+    "weather": "rain",
+    "chance": 0.2,
+    "minFishingLevel": 0,
+    "requiresLure": false,
+    "requiresLuckOfSea": false,
+    "rewards": [
+      {
+        "item": "minecraft:prismarine_shard",
+        "count": 2,
+        "minCount": 1,
+        "maxCount": 1,
+        "chance": 0.7
+      }
+    ],
+    "commands": [
+      "tellraw {player} {\"text\":\"The rain brings oceanic treasures!\",\"color\":\"aqua\"}"
+    ]
+  }
+]

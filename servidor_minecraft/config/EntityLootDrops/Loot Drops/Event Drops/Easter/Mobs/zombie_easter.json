@@ -1,0 +1,19 @@
+[
+  {
+    "entityId": "minecraft:zombie",
+    "itemId": "minecraft:carrot",
+    "dropChance": 20.0,
+    "minAmount": 1,
+    "maxAmount": 2,
+    "requiredTime": "dawn",
+    "commandChance": 100.0,
+    "dropCommandChance": 100.0,
+    "_comment": "Example zombie drops for easter category",
+    "requirePlayerKill": true,
+    "allowDefaultDrops": true,
+    "allowModIDs": [],
+    "extraDropChance": 0.0,
+    "extraAmountMin": 1,
+    "extraAmountMax": 1
+  }
+]

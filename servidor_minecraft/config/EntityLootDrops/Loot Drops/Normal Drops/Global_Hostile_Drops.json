@@ -1,0 +1,19 @@
+[
+  {
+    "itemId": "minecraft:gold_nugget",
+    "dropChance": 15.0,
+    "minAmount": 1,
+    "maxAmount": 3,
+    "command": "tellraw @a {\"text\":\"A hostile mob was killed!\",\"color\":\"yellow\"}",
+    "commandChance": 25.0,
+    "dropCommand": "tellraw @a {\"text\":\"Gold nuggets dropped!\",\"color\":\"gold\"}",
+    "dropCommandChance": 100.0,
+    "_comment": "Basic example - Gold nuggets from hostile mobs",
+    "requirePlayerKill": true,
+    "allowDefaultDrops": true,
+    "allowModIDs": [],
+    "extraDropChance": 10.0,
+    "extraAmountMin": 1,
+    "extraAmountMax": 2
+  }
+]

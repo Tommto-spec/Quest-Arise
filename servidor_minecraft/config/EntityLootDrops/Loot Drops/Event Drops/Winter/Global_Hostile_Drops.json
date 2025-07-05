@@ -1,0 +1,20 @@
+[
+  {
+    "itemId": "minecraft:ice",
+    "dropChance": 25.0,
+    "minAmount": 1,
+    "maxAmount": 2,
+    "requiredWeather": "clear",
+    "requiredBiome": "minecraft:snowy_plains",
+    "commandChance": 100.0,
+    "dropCommand": "tellraw @a {\"text\":\"Ice shards dropped in the winter cold!\",\"color\":\"aqua\"}",
+    "dropCommandChance": 50.0,
+    "_comment": "Winter event - Ice shards from hostile mobs in cold biomes",
+    "requirePlayerKill": true,
+    "allowDefaultDrops": true,
+    "allowModIDs": [],
+    "extraDropChance": 0.0,
+    "extraAmountMin": 1,
+    "extraAmountMax": 1
+  }
+]

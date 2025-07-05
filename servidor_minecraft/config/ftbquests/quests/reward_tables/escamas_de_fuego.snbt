@@ -1,0 +1,12 @@
+{
+	id: "04991C4D8D4878A2"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ count: 24, item: "iceandfire:dragonscales_red" }
+		{ count: 24, item: "iceandfire:dragonscales_green" }
+		{ count: 24, item: "iceandfire:dragonscales_bronze" }
+		{ count: 24, item: "iceandfire:dragonscales_gray" }
+	]
+	title: "escamas de fuego"
+}

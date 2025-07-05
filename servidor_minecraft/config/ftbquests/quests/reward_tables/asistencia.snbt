@@ -1,0 +1,26 @@
+{
+	id: "2A99FF13A006D84D"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			command: "/mine_and_slash give support_gem @s bleed_chance 3 uncommon 1"
+			icon: "mmorpg:skill_gems/support/str"
+			title: "Bleed chance"
+			type: "command"
+		}
+		{
+			command: "/mine_and_slash give support_gem @s burn_chance 3 uncommon 1"
+			icon: "mmorpg:skill_gems/support/str"
+			title: "Burn damage"
+			type: "command"
+		}
+		{
+			command: "/mine_and_slash give support_gem @s spell_damage 3 uncommon 1"
+			icon: "mmorpg:skill_gems/support/int"
+			title: "Spell damage"
+			type: "command"
+		}
+	]
+	title: "Asistencia"
+}

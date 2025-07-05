@@ -1,0 +1,51 @@
+{
+	icon: {
+		Count: 1
+		id: "minecraft:chainmail_leggings"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "60B3BC10D03723D6"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			command: "/mine_and_slash give gear @s cloth_pants 3 rare 1"
+			icon: {
+				Count: 1
+				id: "minecraft:golden_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "Mago"
+			type: "command"
+		}
+		{
+			command: "/mine_and_slash give gear @s leather_pants 3 rare 1"
+			icon: {
+				Count: 1
+				id: "minecraft:leather_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "Arquero"
+			type: "command"
+		}
+		{
+			command: "/mine_and_slash give gear @s plate_pants 3 rare 1"
+			icon: {
+				Count: 1
+				id: "minecraft:iron_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "Guerrero"
+			type: "command"
+		}
+	]
+	title: "Pantalón"
+}

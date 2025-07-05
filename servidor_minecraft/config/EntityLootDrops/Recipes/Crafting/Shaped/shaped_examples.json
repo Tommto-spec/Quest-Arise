@@ -1,0 +1,120 @@
+[
+  {
+    "name": "enchanted_diamond_sword",
+    "type": "shaped",
+    "enabled": true,
+    "replaceRecipe": "minecraft:diamond_sword",
+    "_comment": "enchanted diamond sword replacement - uses string format",
+    "group": "weapons",
+    "outputItem": "minecraft:diamond_sword",
+    "outputCount": 1,
+    "outputNbt": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:5}]}",
+    "pattern": [
+      " D ",
+      " D ",
+      " S "
+    ],
+    "key": {
+      "S": "minecraft:stick",
+      "D": "minecraft:diamond"
+    },
+    "experience": 0.1,
+    "cookingTime": 200,
+    "craftCommands": [
+      "tellraw @a {\"text\":\"Someone crafted an enchanted diamond sword!\",\"color\":\"gold\"}"
+    ],
+    "commandChance": 100.0
+  },
+  {
+    "name": "custom_pickaxe",
+    "type": "shaped",
+    "enabled": false,
+    "_comment": "custom enchanted diamond pickaxe - shows mixed string and object formats",
+    "group": "tools",
+    "outputItem": "minecraft:diamond_pickaxe",
+    "outputCount": 1,
+    "outputNbt": "{Enchantments:[{id:\"minecraft:efficiency\",lvl:3},{id:\"minecraft:unbreaking\",lvl:2}]}",
+    "pattern": [
+      "DDD",
+      " S ",
+      " S "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "D": "minecraft:diamond"
+    },
+    "experience": 0.1,
+    "cookingTime": 200,
+    "craftCommands": [
+      "particle minecraft:enchant ~ ~ ~ 0.5 0.5 0.5 0.1 30"
+    ],
+    "commandChance": 100.0
+  },
+  {
+    "name": "bountyboard_replacement",
+    "type": "shaped",
+    "enabled": false,
+    "replaceRecipe": "bountiful:bountyboard",
+    "_comment": "bountyboard - uses datapack object format",
+    "group": "block",
+    "outputItem": "bountiful:bountyboard",
+    "outputCount": 1,
+    "outputNbt": "",
+    "pattern": [
+      "ABA",
+      "CDC",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:oak_planks"
+      },
+      "B": {
+        "item": "minecraft:oak_log"
+      },
+      "C": {
+        "item": "minecraft:paper"
+      },
+      "D": {
+        "item": "mmorpg:stone/3"
+      }
+    },
+    "experience": 0.1,
+    "cookingTime": 200,
+    "craftCommands": [
+      ""
+    ],
+    "commandChance": 100.0
+  },
+  {
+    "name": "tag_based_sword",
+    "type": "shaped",
+    "enabled": false,
+    "_comment": "iron sword using forge tags - shows tag format",
+    "group": "weapons",
+    "outputItem": "minecraft:iron_sword",
+    "outputCount": 1,
+    "outputNbt": "",
+    "pattern": [
+      " I ",
+      " I ",
+      " S "
+    ],
+    "key": {
+      "S": {
+        "tag": "forge:rods/wooden"
+      },
+      "I": {
+        "tag": "forge:ingots/iron"
+      }
+    },
+    "experience": 0.1,
+    "cookingTime": 200,
+    "craftCommands": [
+      "tellraw @p {\"text\":\"Crafted with tags!\",\"color\":\"green\"}"
+    ],
+    "commandChance": 100.0
+  }
+]

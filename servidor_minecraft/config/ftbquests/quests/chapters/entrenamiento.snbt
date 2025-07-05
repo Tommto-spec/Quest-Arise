@@ -1,0 +1,171 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "entrenamiento"
+	group: ""
+	icon: "minecraft:zombie_head"
+	id: "5C7FD38A5DFE2047"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3BEC35F53C5F4803"
+			rewards: [{
+				count: 5
+				id: "3ED4A90946392B4C"
+				item: "minecraft:zombie_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D24DA7F657C4DEB"
+				title: "Zombie"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			id: "20E982E89C88F455"
+			rewards: [{
+				count: 5
+				id: "3FD1D472F46FB4F3"
+				item: "minecraft:skeleton_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D613716C9CDDD2F"
+				title: "Esqueleto"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			id: "7EC4478EB2734EFB"
+			rewards: [{
+				count: 5
+				id: "5B4AE7900B90B51E"
+				item: "minecraft:spider_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C112F6448FAD06C"
+				title: "shama"
+				type: "checkmark"
+			}]
+			title: "Araña"
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			id: "5AA69F31B6F455D3"
+			rewards: [{
+				count: 2
+				id: "77EC836AA276FD45"
+				item: "minecraft:enderman_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				id: "726909153BF98380"
+				title: "Enderman"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7EC4478EB2734EFB"
+				"5AA69F31B6F455D3"
+				"20E982E89C88F455"
+				"3BEC35F53C5F4803"
+			]
+			description: ["A medida que te alejes de la zona de spawn, los enemigos se haran mucho mas fuertes, seran de mayor nivel y rareza, ésta ultima los hace aun mas peligrosos. Algunas entidades podran spawnear con resistencia a algun tipo de daño (resistente al fuego), o con daño elemental (electric damage), asi que debes tener cuidado contra que enemigo te enfrentas"]
+			id: "065846CF84960115"
+			rewards: [
+				{
+					id: "5E8CDE3C1D3D506B"
+					item: "mmorpg:soul_cleaner"
+					type: "item"
+				}
+				{
+					id: "1FF89740AE0FE23C"
+					item: {
+						Count: 1
+						id: "mmorpg:stat_soul/family/weapon/rare"
+						tag: {
+							tier: 1
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/mine_and_slash give exp @s 300"
+					icon: "minecraft:experience_bottle"
+					id: "79D52E7C5899B57E"
+					title: "300 XP"
+					type: "command"
+				}
+			]
+			subtitle: "Suben de nivel"
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "160250A907996F34"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "5A3A91C5AAC9CE9B"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "minecraft:spider"
+					icon: "minecraft:spider_eye"
+					id: "7D3EED6AD199D5C0"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "minecraft:enderman"
+					icon: "minecraft:ender_pearl"
+					id: "2310EC1730C4E41B"
+					type: "kill"
+					value: 2L
+				}
+			]
+			title: "Todos son diferentes"
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["065846CF84960115"]
+			description: ["Este objeto sirve para retirar el alma del equipamiento en el cual se usa, te sirve si es que las caracteristicas de un equipo te favorecen tanto que no puedes perderlo, le retiras el alma y podrias ponerlo en un arma de mayor nivel o categoria."]
+			id: "12E964786BF1DDDC"
+			rewards: [{
+				id: "3124041C7A1C4B40"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/weapon/epic"
+					tag: {
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Objeto especial"
+			tasks: [{
+				id: "1A69C3FE2926B4D4"
+				title: "Limpiador de alma"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+	]
+	title: "Entrenamiento"
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "name": "super_cooked_beef",
+    "type": "smoking",
+    "enabled": false,
+    "_comment": "enhanced beef smoking with custom name",
+    "group": "cooking",
+    "outputItem": "minecraft:cooked_beef",
+    "outputCount": 2,
+    "outputNbt": "{display:{Name:\u0027{\"text\":\"Super Cooked Beef\",\"color\":\"gold\"}\u0027}}",
+    "input": "minecraft:raw_beef",
+    "experience": 0.7,
+    "cookingTime": 100,
+    "craftCommands": [
+      "playsound minecraft:entity.player.burp player @p ~ ~ ~ 1 1"
+    ],
+    "commandChance": 100.0
+  }
+]

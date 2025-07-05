@@ -1,0 +1,39 @@
+{
+	icon: {
+		Count: 1
+		id: "minecraft:shield"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "5E416CE4E0891131"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			command: "/mine_and_slash give gear @s tome 3 rare 1"
+			icon: "mmorpg:offhand/tome/iron"
+			title: "Tomo"
+			type: "command"
+		}
+		{
+			command: "/mine_and_slash give gear @s totem 3 rare 1"
+			icon: "mmorpg:offhand/dodge/iron"
+			title: "Totem"
+			type: "command"
+		}
+		{
+			command: "/mine_and_slash give gear @s shield 3 rare 1"
+			icon: {
+				Count: 1
+				id: "minecraft:shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "Escudo"
+			type: "command"
+		}
+	]
+	title: "Protección"
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "fast_iron_ingot",
+    "type": "blasting",
+    "enabled": false,
+    "replaceRecipe": "minecraft:iron_ingot_from_blasting_raw_iron",
+    "_comment": "double iron ingot output from blasting",
+    "group": "smelting",
+    "outputItem": "minecraft:iron_ingot",
+    "outputCount": 2,
+    "outputNbt": "",
+    "input": "minecraft:raw_iron",
+    "experience": 1.4,
+    "cookingTime": 50,
+    "craftCommands": [
+      "particle minecraft:flame ~ ~ ~ 0.3 0.3 0.3 0.1 10"
+    ],
+    "commandChance": 75.0
+  }
+]

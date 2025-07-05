@@ -1,0 +1,19 @@
+[
+  {
+    "name": "campfire_special_fish",
+    "type": "campfire",
+    "enabled": false,
+    "_comment": "special campfire-cooked fish with custom name",
+    "group": "cooking",
+    "outputItem": "minecraft:cooked_cod",
+    "outputCount": 1,
+    "outputNbt": "{display:{Name:\u0027{\"text\":\"Campfire Grilled Fish\",\"color\":\"yellow\"}\u0027}}",
+    "input": "minecraft:raw_cod",
+    "experience": 0.5,
+    "cookingTime": 600,
+    "craftCommands": [
+      "particle minecraft:smoke ~ ~1 ~ 0.2 0.2 0.2 0.05 15"
+    ],
+    "commandChance": 100.0
+  }
+]

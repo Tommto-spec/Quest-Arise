@@ -1,0 +1,14 @@
+{
+  "enable": {
+    "Easter": "§e[Events] §fEaster event has begun! Colorful drops are now active!",
+    "Winter": "§b[Events] §fWinter event has begun! Ice-themed drops are now active!",
+    "Summer": "§6[Events] §fSummer event has begun! Fire-themed drops are now active!",
+    "Halloween": "§5[Events] §fHalloween event has begun! Spooky drops are now active!"
+  },
+  "disable": {
+    "Easter": "§e[Events] §7Easter event has ended.",
+    "Winter": "§b[Events] §7Winter event has ended.",
+    "Summer": "§6[Events] §7Summer event has ended.",
+    "Halloween": "§5[Events] §7Halloween event has ended."
+  }
+}

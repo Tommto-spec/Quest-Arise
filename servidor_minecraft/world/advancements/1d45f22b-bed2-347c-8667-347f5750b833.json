@@ -1,0 +1,1656 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-07-04 23:20:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:river": "2025-07-05 00:26:15 +0000",
+      "minecraft:stony_shore": "2025-07-05 01:01:49 +0000",
+      "minecraft:cold_ocean": "2025-07-05 01:02:07 +0000",
+      "minecraft:forest": "2025-07-05 00:53:06 +0000",
+      "minecraft:savanna": "2025-07-04 23:20:03 +0000",
+      "minecraft:plains": "2025-07-05 00:27:09 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-07-04 23:21:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2025-07-04 23:21:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2025-07-04 23:21:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2025-07-04 23:21:01 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/receiver": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/bottle": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/harmonica": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/xylophone": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/marimba": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:biomeswevegone/root": {
+    "criteria": {
+      "tick": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/elecguitar": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/recorder": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/harp": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/drums": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/tuba": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/harpsichord": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/contrabass": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/cello": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/violin": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/bassoon": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/root": {
+    "criteria": {
+      "tick": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/piccolo": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/tuningtable": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/clarinet": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/banjo": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/bagpipe": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:wda_root": {
+    "criteria": {
+      "WDA": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/vibraphone": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/ocarina": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/ledcube_a": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/ledcube_b": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/ledcube_c": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/ledcube_d": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/ledcube_e": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/ledcube_f": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/ledcube_g": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/ledcube_h": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/keyboard": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/steeldrum": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "betterdungeons:root": {
+    "criteria": {
+      "always": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/trumpet": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/piano": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/acguitar": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/kalimba": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/listener": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/musicbox": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/frenchhorn": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_meal": {
+    "criteria": {
+      "has_item": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/flute": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/guide": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/saxophone": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/timpani": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/ledcube_a_def": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/woodblock": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/prophet": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/mechanicalmaestro": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/viola": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/transmitter": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/synlead": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/bassguitar": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/transmitterblock": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "betterdeserttemples:root": {
+    "criteria": {
+      "always": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/relay": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/settingssync": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/microphone": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/organ": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/effectemitter": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/oboe": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/accordion": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/glockenspiel": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/handbell": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/trombone": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/sourcelinker": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/edrums": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/celesta": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/panflute": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mimi:recipes/tubularbells": {
+    "criteria": {
+      "has_note": "2025-07-05 00:21:44 +0000"
+    },
+    "done": true
+  },
+  "mca:root": {
+    "criteria": {
+      "village_savanna": "2025-07-05 00:21:45 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2025-07-05 00:21:45 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:biomeswevegone/adventure/root": {
+    "criteria": {
+      "biomeswevegone:maple_taiga": "2025-07-05 00:25:31 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:biomeswevegone/adventure/oh_the_biomes_weve_gone": {
+    "criteria": {
+      "biomeswevegone:sakura_grove": "2025-07-05 00:54:21 +0000",
+      "biomeswevegone:temperate_grove": "2025-07-05 00:28:40 +0000",
+      "biomeswevegone:forgotten_forest": "2025-07-05 00:52:52 +0000",
+      "biomeswevegone:maple_taiga": "2025-07-05 00:25:31 +0000",
+      "biomeswevegone:amaranth_grassland": "2025-07-05 00:28:24 +0000",
+      "biomeswevegone:skyrise_vale": "2025-07-05 00:25:37 +0000",
+      "biomeswevegone:allium_shrubland": "2025-07-05 00:28:29 +0000",
+      "biomeswevegone:pumpkin_valley": "2025-07-05 01:03:40 +0000",
+      "biomeswevegone:rainbow_beach": "2025-07-05 00:28:07 +0000"
+    },
+    "done": false
+  },
+  "tombstone:adventure/first_grave": {
+    "criteria": {
+      "coded_trigger": "2025-07-05 00:25:39 +0000"
+    },
+    "done": true
+  },
+  "tombstone:recipes/from_grave_key": {
+    "criteria": {
+      "has_ingredient": "2025-07-05 00:25:49 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/willow_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/pine_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/rainbow_eucalyptus_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/mahogany_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/baobab_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/aspen_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/skyris_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/fir_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/redwood_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/white_mangrove_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/cypress_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/cika_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/ebony_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/holly_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/maple_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/sakura_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/florus_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/blue_enchanted_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/witch_hazel_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/jacaranda_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/palm_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/zelkova_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/green_enchanted_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:recipes/transportation/ironwood_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2025-07-05 00:26:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_white_horse": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2025-07-05 00:52:24 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_cyan_care": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/find_grave_dust": {
+    "criteria": {
+      "from_undead": "2025-07-05 00:57:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_magenta_care": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_brown_care": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_lime_care": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/western_fence_acacia": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-07-05 00:51:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-07-05 00:48:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2025-07-05 00:48:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2025-07-05 00:53:45 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_lime_horse": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_light_gray_horse": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2025-07-05 00:52:34 +0000",
+      "minecraft:magma_cube": "2025-07-05 00:56:24 +0000",
+      "minecraft:zombie": "2025-07-05 00:51:43 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/iron_block": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/toy_string_treats": {
+    "criteria": {
+      "has_string": "2025-07-05 00:57:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-07-05 00:57:04 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/decorations/shop": {
+    "criteria": {
+      "has_emeralds": "2025-07-05 00:47:46 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/tack_box_cyan": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/plate_diamond": {
+    "criteria": {
+      "has_ingredient": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/tack_box_lime": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2025-07-05 00:57:04 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/tack_box_blue": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_knowledge": {
+    "criteria": {
+      "coded_trigger": "2025-07-05 00:57:43 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_fence_whitewash": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/tack_box_orange": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/tack_box_purple": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "lootr:social": {
+    "criteria": {
+      "opened_chest": "2025-07-05 00:56:01 +0000"
+    },
+    "done": false
+  },
+  "mca:recipes/misc/comb": {
+    "criteria": {
+      "has_item": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lantern": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_blue_care": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_gray_care": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_abandoned_temple": {
+    "criteria": {
+      "location0": "2025-07-05 01:00:22 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_green_horse": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/western_fence_spruce": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_fence_acacia": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/food/gold_pile": {
+    "criteria": {
+      "has_item": "2025-07-05 00:53:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-07-05 00:47:32 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_pink_care": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "paraglider:recipes/misc/paraglider": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_blue_horse": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_purple_horse": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "tombstone:recipes/from_grave_dust": {
+    "criteria": {
+      "has_ingredient": "2025-07-05 00:57:53 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/easy_opening": {
+    "criteria": {
+      "coded_trigger": "2025-07-05 01:00:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/tack_box_magenta": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2025-07-05 00:52:22 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_cyan_horse": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/western_fence_oak": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/tack_box_red": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/plate_iron": {
+    "criteria": {
+      "has_ingredient": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "lootr:1chest": {
+    "criteria": {
+      "opened_chest": "2025-07-05 00:56:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2025-07-05 00:48:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_chestplate": "2025-07-05 00:48:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/tack_box_light_gray": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_light_blue_horse": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/tack_box_white": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-07-05 00:57:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_purple_care": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2025-07-05 00:53:45 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_red_horse": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2025-07-05 00:52:22 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_fence_spruce": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_orange_horse": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_green_care": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-07-05 00:57:04 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_yellow_care": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-07-05 00:47:46 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/western_fence_jungle": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/tack_box_pink": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_light_gray_care": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_orange_care": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chain": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_fence_oak": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-07-05 00:52:37 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/tack_box_green": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smithing_table": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/needle_and_thread": {
+    "criteria": {
+      "has_item": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_fence_birch": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/western_fence_birch": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2025-07-05 00:52:22 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/tack_box_black": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_fence_jungle": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/whistle": {
+    "criteria": {
+      "has_item": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/tack_box_light_blue": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_pickaxe": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_magenta_horse": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/tack_box_brown": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_gray_horse": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_red_care": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_black_care": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/rivet_diamond": {
+    "criteria": {
+      "has_ingredient": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2025-07-05 00:52:24 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_brown_horse": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2025-07-05 00:52:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/rivet_iron": {
+    "criteria": {
+      "has_ingredient": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_small_blimp": {
+    "criteria": {
+      "location0": "2025-07-05 00:54:25 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/copper_backpack": {
+    "criteria": {
+      "has_backpack": "2025-07-05 00:43:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2025-07-05 00:52:24 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_black_horse": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/tack_box_gray": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-07-05 00:57:04 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/western_fence_whitewash": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_chestplate": "2025-07-05 00:48:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2025-07-05 00:51:43 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_white_care": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_yellow_horse": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/tack_box_yellow": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_light_blue_care": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_pink_horse": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/ashes_and_bones": {
+    "criteria": {
+      "coded_trigger": "2025-07-05 00:57:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2025-07-05 00:57:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/western_fence_dark_oak": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_fence_dark_oak": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/iron_backpack": {
+    "criteria": {
+      "has_backpack": "2025-07-05 00:43:28 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

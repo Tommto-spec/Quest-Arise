@@ -1,0 +1,51 @@
+{
+	icon: {
+		Count: 1
+		id: "minecraft:chainmail_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "7004F440D9B9D169"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			command: "/mine_and_slash give gear @s cloth_helmet 3 rare 1"
+			icon: {
+				Count: 1
+				id: "minecraft:golden_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "Mago"
+			type: "command"
+		}
+		{
+			command: "/mine_and_slash give gear @s leather_helmet 3 rare 1"
+			icon: {
+				Count: 1
+				id: "minecraft:leather_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "Arquero"
+			type: "command"
+		}
+		{
+			command: "/mine_and_slash give gear @s plate_helmet 3 rare 1"
+			icon: {
+				Count: 1
+				id: "minecraft:iron_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "Guerrero"
+			type: "command"
+		}
+	]
+	title: "casco"
+}

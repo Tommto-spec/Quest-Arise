@@ -1,0 +1,27 @@
+{
+	icon: "mmorpg:skill_gems/aura/dex"
+	id: "5C679BCFE5454379"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			command: "/mine_and_slash give aura @s energy_reg 3 uncommon 1"
+			icon: "mmorpg:skill_gems/aura/dex"
+			title: "Energy regen"
+			type: "command"
+		}
+		{
+			command: "/mine_and_slash give aura @s mana_reg 3 uncommon 1"
+			icon: "mmorpg:skill_gems/aura/int"
+			title: "Mana regen"
+			type: "command"
+		}
+		{
+			command: "/mine_and_slash give aura @s health_reg 3 uncommon 1"
+			icon: "mmorpg:skill_gems/aura/str"
+			title: "Health regen"
+			type: "command"
+		}
+	]
+	title: "Aura"
+}

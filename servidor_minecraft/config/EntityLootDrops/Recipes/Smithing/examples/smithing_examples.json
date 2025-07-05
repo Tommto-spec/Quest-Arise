@@ -1,0 +1,21 @@
+[
+  {
+    "name": "upgrade_diamond_sword",
+    "type": "smithing",
+    "enabled": false,
+    "_comment": "smithing with bonus enchantment and custom name",
+    "group": "weapons",
+    "outputItem": "minecraft:netherite_sword",
+    "outputCount": 1,
+    "outputNbt": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:10}],display:{Name:\u0027{\"text\":\"Legendary Netherite Sword\",\"color\":\"dark_red\"}\u0027}}",
+    "base": "minecraft:diamond_sword",
+    "addition": "minecraft:netherite_ingot",
+    "template": "minecraft:netherite_upgrade_smithing_template",
+    "experience": 0.1,
+    "cookingTime": 200,
+    "craftCommands": [
+      "tellraw @p {\"text\":\"You created a legendary weapon!\",\"color\":\"dark_red\"}"
+    ],
+    "commandChance": 100.0
+  }
+]

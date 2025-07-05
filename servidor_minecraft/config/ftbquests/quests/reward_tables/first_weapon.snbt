@@ -1,0 +1,63 @@
+{
+	icon: {
+		Count: 1
+		id: "minecraft:iron_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "49AD09303D949A23"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			command: "/mine_and_slash give gear @s sword 3 rare 1"
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "Rare Sword"
+			type: "command"
+		}
+		{
+			command: "/mine_and_slash give gear @s bow 3 rare 1"
+			icon: {
+				Count: 1
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "Bow"
+			type: "command"
+		}
+		{
+			command: "/mine_and_slash give gear @s staff 3 rare 1"
+			icon: {
+				Count: 1
+				id: "mmorpg:weapon/staff/wood"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "Staff"
+			type: "command"
+		}
+		{
+			command: "/mine_and_slash give gear @s trident 3 rare 1"
+			icon: {
+				Count: 1
+				id: "minecraft:trident"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "Tridente"
+			type: "command"
+		}
+	]
+	title: "First weapon"
+}

@@ -1,0 +1,770 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "forja_del_dragn"
+	group: ""
+	icon: "iceandfire:dragonforge_fire_core"
+	id: "0DC3D889C53DC6F8"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"La forja de dragón es una estructura muy especial, que la tendras que armar tu mismo. En esta forja podras crear lingotes de dragon con propiedades espectaculares."
+				"{image:iceandfire:item/dragonsteel_fire_ingot width:50 height:50 align:center}"
+				"Este regalo te servira para el primer piso de tu siguiente forja"
+			]
+			id: "034B2504F42E5A66"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40FE79D1918181F2"
+				table_id: 4817643104545258004L
+				type: "choice"
+			}]
+			subtitle: "Nuevos materiales"
+			tasks: [{
+				id: "678761289BF7D2B3"
+				title: "Forja del dragón"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["034B2504F42E5A66"]
+			description: ["Los bloques de la forja se pueden craftear con 4 ladrillos de piedra y 5 bloques de cualquier escama de dragón de fuego."]
+			id: "08B68CA789202297"
+			rewards: [{
+				count: 4
+				id: "599ED6F9716A666E"
+				item: "iceandfire:dragon_bone_block"
+				type: "item"
+			}]
+			subtitle: "El mejor equipo?"
+			tasks: [{
+				id: "58E659F4699924F3"
+				item: "iceandfire:dragonforge_fire_brick"
+				type: "item"
+			}]
+			title: "Forja de Fuego"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08B68CA789202297"]
+			description: ["Para el núcleo de esta forja, es necesario el corazon de cualquier dragon de fuego, y 8 bloques de forja más. Este es el centro de la forja, sin este componente la forja no funciona"]
+			id: "78B03D1747EA87CC"
+			rewards: [
+				{
+					count: 10
+					id: "18F7042A42B7AAD9"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					command: "/mine_and_slash give exp @s 500"
+					icon: "minecraft:experience_bottle"
+					id: "74BAF434E28C30D5"
+					title: "500 XP"
+					type: "command"
+				}
+			]
+			subtitle: "Corazón de la forja"
+			tasks: [{
+				id: "279C28CF0AFB1CAC"
+				item: "iceandfire:dragonforge_fire_core_disabled"
+				type: "item"
+			}]
+			title: "Núcleo de la forja"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78B03D1747EA87CC"]
+			description: ["Esta bloque es la entrada y el bloque al que tu dragón debe apuntar su aliento, una vez completada la forja. Aqui también se podrá abrir la interfaz de la forja, donde solo deberas poner: lingotes de hierro y sangre de dragón, del resto se encarga el aliento de tu criatura."]
+			id: "692D3CF17F6838C0"
+			rewards: [{
+				command: "/mine_and_slash give exp @s 500"
+				icon: "minecraft:experience_bottle"
+				id: "4597AA779113646E"
+				title: "500 XP"
+				type: "command"
+			}]
+			subtitle: "El aliento es esencial"
+			tasks: [{
+				id: "312AB724AA8F748A"
+				item: "iceandfire:dragonforge_fire_input"
+				type: "item"
+			}]
+			title: "Entrada de la forja"
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["692D3CF17F6838C0"]
+			description: ["El metal químico mas importante de todos. Con este lingote podras crear unn equipo aun mas poderoso, el cual te da aún mas resistencia al aliento de dragon, y no solo eso, sino que tambien podras crear un arsenal de armas y herramientas muy poderosas."]
+			id: "5B69186094ECA373"
+			rewards: [{
+				command: "/mine_and_slash give exp @s 2000"
+				icon: "minecraft:experience_bottle"
+				id: "242106C19DDAD359"
+				title: "2000 XP"
+				type: "command"
+			}]
+			subtitle: "El metal mas poderoso"
+			tasks: [{
+				id: "491CE10A477FECA3"
+				item: "iceandfire:dragonsteel_fire_ingot"
+				type: "item"
+			}]
+			title: "Metal de dragón"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B69186094ECA373"]
+			id: "1ACA68817EEDB11C"
+			rewards: [{
+				command: "/mine_and_slash give exp @s 500"
+				icon: "minecraft:experience_bottle"
+				id: "1DEB2049494430E9"
+				title: "500 XP"
+				type: "command"
+			}]
+			subtitle: "Fabrica el casco de acero de dragón de fuego"
+			tasks: [{
+				id: "4C11BB1C63BF83EF"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_fire_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Caballero dracónico de fuego"
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5B69186094ECA373"]
+			id: "1916F76DD03FFF3B"
+			rewards: [{
+				command: "/mine_and_slash give exp @s 500"
+				icon: "minecraft:experience_bottle"
+				id: "1BD7F91FA3638A0E"
+				title: "500 XP"
+				type: "command"
+			}]
+			subtitle: "Fabrica el peto de acero de dragón de fuego"
+			tasks: [{
+				id: "6585F5138FCD9DE1"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_fire_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Caballero dracónico de fuego"
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B69186094ECA373"]
+			id: "1BD2575D28763F27"
+			rewards: [{
+				command: "/mine_and_slash give exp @s 500"
+				icon: "minecraft:experience_bottle"
+				id: "6EA7DEAC4BFB579E"
+				title: "500 XP"
+				type: "command"
+			}]
+			subtitle: "Fabrica los pantalones de acero de dragón de fuego"
+			tasks: [{
+				id: "7230F8655B9A2A45"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_fire_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Caballero dracónico de fuego"
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B69186094ECA373"]
+			id: "11AD3B9B53A70229"
+			rewards: [{
+				command: "/mine_and_slash give exp @s 500"
+				icon: "minecraft:experience_bottle"
+				id: "418587992908A62B"
+				title: "500 XP"
+				type: "command"
+			}]
+			subtitle: "Fabrica las botas de acero de dragón de fuego"
+			tasks: [{
+				id: "09545E8D84A59C84"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_fire_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Caballero dracónico de fuego"
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5B69186094ECA373"]
+			id: "15F9E671B9A209E4"
+			rewards: [{
+				command: "/mine_and_slash give exp @s 700"
+				icon: "minecraft:experience_bottle"
+				id: "0826F765418D5792"
+				title: "700 XP"
+				type: "command"
+			}]
+			subtitle: "Equipo de fuego"
+			tasks: [
+				{
+					id: "5FF5C3524BB20691"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "777D89043645EE38"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E5CDA394750F036"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Equipo de acero de dragón"
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["034B2504F42E5A66"]
+			description: ["Los bloques de la forja se pueden craftear con 4 ladrillos de piedra y 5 bloques de cualquier escama de dragón de hielo."]
+			id: "51C27ED2C566FE85"
+			rewards: [{
+				count: 4
+				id: "13474BEB381D55F8"
+				item: "iceandfire:dragon_bone_block"
+				type: "item"
+			}]
+			subtitle: "El mejor equipo?"
+			tasks: [{
+				id: "65B1AD6DBB745278"
+				item: "iceandfire:dragonforge_ice_brick"
+				type: "item"
+			}]
+			title: "Forja de Hielo"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51C27ED2C566FE85"]
+			description: ["Para el núcleo de esta forja, es necesario el corazon de cualquier dragon de hielo, y 8 bloques de forja más. Este es el centro de la forja, sin este componente la forja no funciona"]
+			id: "618B2C6E0B4BD4CA"
+			rewards: [
+				{
+					count: 10
+					id: "767E5A6377C18F5E"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					command: "/mine_and_slash give exp @s 500"
+					icon: "minecraft:experience_bottle"
+					id: "3AB0575A71A86A3A"
+					title: "500 XP"
+					type: "command"
+				}
+			]
+			subtitle: "Corazón de la forja"
+			tasks: [{
+				id: "2C19E40A67BF7FD0"
+				item: "iceandfire:dragonforge_ice_core_disabled"
+				type: "item"
+			}]
+			title: "Núcleo de la forja"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["618B2C6E0B4BD4CA"]
+			description: ["Esta bloque es la entrada y el bloque al que tu dragón debe apuntar su aliento, una vez completada la forja. Aqui también se podrá abrir la interfaz de la forja, donde solo deberas poner: lingotes de hierro y sangre de dragón, del resto se encarga el aliento de tu criatura."]
+			id: "33A30DDFD36EBB58"
+			rewards: [{
+				command: "/mine_and_slash give exp @s 500"
+				icon: "minecraft:experience_bottle"
+				id: "48286F70B498433F"
+				title: "500 XP"
+				type: "command"
+			}]
+			subtitle: "El aliento es esencial"
+			tasks: [{
+				id: "0F30C2891CE25B59"
+				item: "iceandfire:dragonforge_ice_input"
+				type: "item"
+			}]
+			title: "Entrada de la forja"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["33A30DDFD36EBB58"]
+			description: ["El metal químico mas importante de todos. Con este lingote podras crear unn equipo aun mas poderoso, el cual te da aún mas resistencia al aliento de dragon, y no solo eso, sino que tambien podras crear un arsenal de armas y herramientas muy poderosas."]
+			id: "3C4AD8E6442896E0"
+			rewards: [{
+				command: "/mine_and_slash give exp @s 2000"
+				icon: "minecraft:experience_bottle"
+				id: "02A1C6078A400ACB"
+				title: "2000 XP"
+				type: "command"
+			}]
+			subtitle: "El metal más poderoso"
+			tasks: [{
+				id: "7697BB3B614330CF"
+				item: "iceandfire:dragonsteel_ice_ingot"
+				type: "item"
+			}]
+			title: "Metal de dragón"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3C4AD8E6442896E0"]
+			id: "68F080DE2BA15C74"
+			rewards: [{
+				command: "/mine_and_slash give exp @s 500"
+				icon: "minecraft:experience_bottle"
+				id: "0FAA003DF8551EDF"
+				title: "500 XP"
+				type: "command"
+			}]
+			subtitle: "Fabrica el casco de acero de dragón"
+			tasks: [{
+				id: "59856B452F02CA8E"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_ice_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Caballero dracónico de hielo"
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3C4AD8E6442896E0"]
+			id: "4243E3D717738151"
+			rewards: [{
+				command: "/mine_and_slash give exp @s 500"
+				icon: "minecraft:experience_bottle"
+				id: "2585F3B3D3CB6788"
+				title: "500 XP"
+				type: "command"
+			}]
+			subtitle: "Fabrica el peto de acero de dragón de hielo"
+			tasks: [{
+				id: "15145BE18175E91B"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_ice_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Caballero dracónico de hielo"
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3C4AD8E6442896E0"]
+			id: "750CC8A50B69DEA8"
+			rewards: [{
+				command: "/mine_and_slash give exp @s 500"
+				icon: "minecraft:experience_bottle"
+				id: "601BA0CD09C66580"
+				title: "500 XP"
+				type: "command"
+			}]
+			subtitle: "Fabrica los pantalones de acero de dragón de hielo"
+			tasks: [{
+				id: "2F2533A4DF2E6171"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_ice_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Caballero dracónico de hielo"
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3C4AD8E6442896E0"]
+			id: "52102867B5A86515"
+			rewards: [{
+				command: "/mine_and_slash give exp @s 500"
+				icon: "minecraft:experience_bottle"
+				id: "4F258D0F1686F375"
+				title: "500 XP"
+				type: "command"
+			}]
+			subtitle: "Fabrica las botas de acero de dragon de hielo"
+			tasks: [{
+				id: "4697A35507D3B199"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_ice_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Caballero dracónico de hielo"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3C4AD8E6442896E0"]
+			id: "46C4C4607AB91E0C"
+			rewards: [{
+				command: "/mine_and_slash give exp @s 700"
+				icon: "minecraft:experience_bottle"
+				id: "28A9AB8CB1B080B3"
+				title: "700 XP"
+				type: "command"
+			}]
+			subtitle: "Equipo de hielo"
+			tasks: [
+				{
+					id: "61210FD5037BB5E4"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D9400CDCDE5A3DF"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E323A99985EBC8D"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Equipo de acero de dragón"
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["034B2504F42E5A66"]
+			description: ["Los bloques de la forja se pueden craftear con 4 ladrillos de piedra y 5 bloques de cualquier escama de dragón de hielo."]
+			id: "5094B021CE0EE9EE"
+			rewards: [{
+				count: 4
+				id: "4892CED1F1AA8039"
+				item: "iceandfire:dragon_bone_block"
+				type: "item"
+			}]
+			subtitle: "El mejor equipo?"
+			tasks: [{
+				id: "059ABABCBB1AB464"
+				item: "iceandfire:dragonforge_lightning_brick"
+				type: "item"
+			}]
+			title: "Forja Eléctrica"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5094B021CE0EE9EE"]
+			description: ["Para el núcleo de esta forja, es necesario el corazon de cualquier dragon eléctrico, y 8 bloques de forja más. Este es el centro de la forja, sin este componente la forja no funciona"]
+			id: "7656993EF084A603"
+			rewards: [
+				{
+					count: 10
+					id: "2F1E25071E1D6717"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					command: "/mine_and_slash give exp @s 500"
+					icon: "minecraft:experience_bottle"
+					id: "7345683C2D102AB5"
+					title: "500 XP"
+					type: "command"
+				}
+			]
+			subtitle: "Corazón de la forja"
+			tasks: [{
+				id: "3070485AEC51B614"
+				item: "iceandfire:dragonforge_lightning_core_disabled"
+				type: "item"
+			}]
+			title: "Núcleo de la forja"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7656993EF084A603"]
+			description: ["Esta bloque es la entrada y el bloque al que tu dragón debe apuntar su aliento, una vez completada la forja. Aqui también se podrá abrir la interfaz de la forja, donde solo deberas poner: lingotes de hierro y sangre de dragón, del resto se encarga el aliento de tu criatura."]
+			id: "0DD9E57BAC569F7E"
+			rewards: [{
+				command: "/mine_and_slash give exp @s 500"
+				icon: "minecraft:experience_bottle"
+				id: "6D3F5DFA71FAE3FA"
+				title: "500 XP"
+				type: "command"
+			}]
+			subtitle: "El aliento es esencial"
+			tasks: [{
+				id: "6E77C1C50C3CE241"
+				item: "iceandfire:dragonforge_lightning_input"
+				type: "item"
+			}]
+			title: "Entrada de la forja"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0DD9E57BAC569F7E"]
+			description: ["El metal químico mas importante de todos. Con este lingote podras crear unn equipo aun mas poderoso, el cual te da aún mas resistencia al aliento de dragon, y no solo eso, sino que tambien podras crear un arsenal de armas y herramientas muy poderosas."]
+			id: "74D7A80472DC4194"
+			rewards: [{
+				command: "/mine_and_slash give exp @s 2000"
+				icon: "minecraft:experience_bottle"
+				id: "3DD95AB3E0ED2317"
+				title: "2000 XP"
+				type: "command"
+			}]
+			subtitle: "El metal mas poderoso"
+			tasks: [{
+				id: "1778225E11F3A504"
+				item: "iceandfire:dragonsteel_lightning_ingot"
+				type: "item"
+			}]
+			title: "Metal de dragón"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74D7A80472DC4194"]
+			id: "7B986C2AF2B94528"
+			rewards: [{
+				command: "/mine_and_slash give exp @s 500"
+				icon: "minecraft:experience_bottle"
+				id: "499215F71C8F36EF"
+				title: "500 XP"
+				type: "command"
+			}]
+			subtitle: "Fabrica el casco de acero de dragón eléctrico"
+			tasks: [{
+				id: "7C352D83F445672F"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_lightning_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Caballero dracónico del rayo"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["74D7A80472DC4194"]
+			id: "7ED84B5EF173B7A6"
+			rewards: [{
+				command: "/mine_and_slash give exp @s 500"
+				icon: "minecraft:experience_bottle"
+				id: "30E71045ED4F4B7A"
+				title: "500 XP"
+				type: "command"
+			}]
+			subtitle: "Fabrica el peto de acero de dragón eléctrico"
+			tasks: [{
+				id: "0741C6F3462A56A9"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_lightning_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Caballero dracónico de rayo"
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["74D7A80472DC4194"]
+			id: "086A61EF17295806"
+			rewards: [{
+				command: "/mine_and_slash give exp @s 500"
+				icon: "minecraft:experience_bottle"
+				id: "2C549F15E50DC4CC"
+				title: "500 XP"
+				type: "command"
+			}]
+			subtitle: "Fabrica los pantalones de acero de dragón eléctrico"
+			tasks: [{
+				id: "4E020DAB19696A72"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_lightning_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Caballero dracónico de rayo"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74D7A80472DC4194"]
+			id: "06E9EB1F368D01D6"
+			rewards: [{
+				command: "/mine_and_slash give exp @s 500"
+				icon: "minecraft:experience_bottle"
+				id: "5587C3807595F02D"
+				title: "500 XP"
+				type: "command"
+			}]
+			subtitle: "Fabrica las botas de acero de dragón eléctrico"
+			tasks: [{
+				id: "53170754B9EA93AD"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_lightning_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Caballero dracónico de rayo"
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["74D7A80472DC4194"]
+			id: "3BF5ABDEEBE5F03C"
+			rewards: [{
+				command: "/mine_and_slash give exp @s 700"
+				icon: "minecraft:experience_bottle"
+				id: "79C8A9021CA78CE2"
+				title: "700 XP"
+				type: "command"
+			}]
+			subtitle: "Equipo eléctrico"
+			tasks: [
+				{
+					id: "12AF84DC43E36648"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65EC969E73E8A76E"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3697E7ECD627DC65"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Equipo de acero de dragón"
+			x: 7.5d
+			y: -2.5d
+		}
+	]
+	title: "Forja Del Dragón"
+}

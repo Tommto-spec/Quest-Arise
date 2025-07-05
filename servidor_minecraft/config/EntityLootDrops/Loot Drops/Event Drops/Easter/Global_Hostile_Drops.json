@@ -1,0 +1,19 @@
+[
+  {
+    "itemId": "minecraft:egg",
+    "dropChance": 30.0,
+    "minAmount": 2,
+    "maxAmount": 4,
+    "requiredTime": "dawn",
+    "commandChance": 100.0,
+    "dropCommand": "tellraw @a {\"text\":\"Easter eggs have been found!\",\"color\":\"yellow\"}",
+    "dropCommandChance": 75.0,
+    "_comment": "Easter event - Colorful eggs from hostile mobs",
+    "requirePlayerKill": true,
+    "allowDefaultDrops": true,
+    "allowModIDs": [],
+    "extraDropChance": 0.0,
+    "extraAmountMin": 1,
+    "extraAmountMax": 1
+  }
+]

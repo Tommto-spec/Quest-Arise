@@ -1,0 +1,51 @@
+{
+	icon: {
+		Count: 1
+		id: "minecraft:chainmail_chestplate"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "1E6BF022ED00BDC6"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			command: "/mine_and_slash give gear @s cloth_chest 3 rare 1"
+			icon: {
+				Count: 1
+				id: "minecraft:golden_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "mago"
+			type: "command"
+		}
+		{
+			command: "/mine_and_slash give gear @s leather_chest 3 rare 1"
+			icon: {
+				Count: 1
+				id: "minecraft:leather_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "Arquero"
+			type: "command"
+		}
+		{
+			command: "/mine_and_slash give gear @s plate_chest 3 rare 1"
+			icon: {
+				Count: 1
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "Guerrero"
+			type: "command"
+		}
+	]
+	title: "Pechera"
+}

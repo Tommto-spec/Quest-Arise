@@ -1,0 +1,19 @@
+[
+  {
+    "entityId": "minecraft:zombie",
+    "itemId": "minecraft:fire_charge",
+    "dropChance": 20.0,
+    "minAmount": 1,
+    "maxAmount": 2,
+    "requiredTime": "day",
+    "commandChance": 100.0,
+    "dropCommandChance": 100.0,
+    "_comment": "Example zombie drops for summer category",
+    "requirePlayerKill": true,
+    "allowDefaultDrops": true,
+    "allowModIDs": [],
+    "extraDropChance": 0.0,
+    "extraAmountMin": 1,
+    "extraAmountMax": 1
+  }
+]

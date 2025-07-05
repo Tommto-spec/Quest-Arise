@@ -1,0 +1,869 @@
+[05Jul2025 00:40:09.207] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[05Jul2025 00:40:09.210] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[05Jul2025 00:40:10.183] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[05Jul2025 00:40:10.236] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Quest-Arise/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[05Jul2025 00:40:10.651] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at /workspaces/Quest-Arise/servidor_minecraft/mods} returned 1 files which are client-side-only mods, but we're on a dedicated server. They will be skipped!
+[05Jul2025 00:40:10.761] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Quest-Arise/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[05Jul2025 00:40:10.763] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Quest-Arise/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[05Jul2025 00:40:10.764] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Quest-Arise/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[05Jul2025 00:40:10.765] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Quest-Arise/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[05Jul2025 00:40:11.124] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[05Jul2025 00:40:11.126] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 25 dependencies adding them to mods collection
+[05Jul2025 00:40:14.348] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[05Jul2025 00:40:14.646] [main/ERROR] [mixin/]: Mixin config emi_loot.mixins.json does not specify "minVersion" property
+[05Jul2025 00:40:14.746] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.robertx22.mmorpg.MixinConnector]
+[05Jul2025 00:40:14.748] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[05Jul2025 00:40:14.750] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.robertx22.library_of_exile.MixinConnector]
+[05Jul2025 00:40:14.754] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[05Jul2025 00:40:14.867] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.24.1+mc1.20.1: 96 options available, 1 override(s) found
+[05Jul2025 00:40:14.868] [main/WARN] [ModernFix/]: Option 'mixin.perf.smart_ingredient_sync' overriden (by mods [crafttweaker]) to 'false'
+[05Jul2025 00:40:14.868] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[05Jul2025 00:40:14.897] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[05Jul2025 00:40:15.040] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 144 options available, 0 override(s) found
+[05Jul2025 00:40:15.066] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Jul2025 00:40:15.068] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras_forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Jul2025 00:40:15.133] [main/WARN] [mixin/]: Reference map 'jeitweaker.refmap.json' for jeitweaker.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Jul2025 00:40:15.135] [main/WARN] [mixin/]: Reference map 'jeitweaker.refmap.json' for jeitweaker.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Jul2025 00:40:15.142] [main/WARN] [mixin/]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Jul2025 00:40:15.152] [main/WARN] [mixin/]: Reference map 'AxesAreWeapons-forge-refmap.json' for axesareweapons.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Jul2025 00:40:15.294] [main/INFO] [Puzzles Lib/]: Loading 99 mods:
+	- almanac 1.0.2
+	- appleskin 2.5.1+mc1.20.1
+	- architectury 9.2.14
+	- athena 3.1.2
+	- attributefix 21.0.4
+	- attributeslib 1.3.7
+	- axesareweapons 1.7.3
+	- balm 7.3.31
+		\-- kuma_api 20.1.10
+	- bcc 4.0.8
+	- betteranimationscollection 8.0.0
+	- bettercombat 1.8.6+1.20.1
+	- betterdeserttemples 1.20-Forge-3.0.3
+	- betterdungeons 1.20-Forge-4.0.4
+	- betterendisland 1.20-Forge-2.0.6
+	- betterfortresses 1.20-Forge-2.0.6
+	- betterjungletemples 1.20-Forge-2.0.5
+	- bettermineshafts 1.20-Forge-4.0.4
+	- betteroceanmonuments 1.20-Forge-3.0.4
+	- betterstrongholds 1.20-Forge-4.0.3
+	- bettervillage 3.3.1
+	- biomeswevegone 1.6.2
+	- bookshelf 20.2.13
+	- caelus 3.2.0+1.20.1
+	- carryon 2.1.2.7
+		\-- mixinextras 0.2.0-beta.6
+	- citadel 2.6.2
+	- cloth_config 11.1.136
+	- corgilib 4.0.3.4
+	- crafttweaker 14.0.57
+	- curios 5.14.1+1.20.1
+	- dungeon_realm 1.1.0
+	- dungeons_arise 2.1.58-1.20.x
+	- elytraslot 6.4.4+1.20.1
+		\-- mixinsquared 0.1.2-beta.6
+	- embeddium 0.3.31+mc1.20.1
+		\-- rubidium 0.7.1
+	- emi 1.1.22+1.20.1+forge
+	- emi_loot 0.7.6+1.20.1+forge
+	- entitylootdrops 1.9
+	- ferritecore 6.0.1
+	- forge 47.4.0
+	- ftblibrary 2001.2.9
+	- ftbquests 2001.4.13
+	- ftbteams 2001.3.1
+	- ftbultimine 2001.1.6
+	- ftbxmodcompat 2.1.3
+	- fzzy_config 0.7.0+1.20.1+forge
+	- geckolib 4.7.2
+	- iceandfire 2.1.13-1.20.1
+	- iceandfirebettercombat 1.0.1
+	- iceberg 1.1.25
+	- inventoryhud 3.4.26
+	- jade 11.13.1+forge
+	- jei 15.20.0.112
+	- jeitweaker 8.0.6
+	- justenoughprofessions 3.0.1
+	- kotlinforforge 4.11.0
+	- legendarytabs 1.20.1-1.1.3.1
+	- library_of_exile 2.1.0
+	- libraryferret 4.0.0
+	- lootr 0.7.35.91
+	- maxhealthfix 12.0.3
+	- mca 7.6.10+1.20.1
+	- mimi 1.20.1-4.2.0-forge
+	- minecraft 1.20.1
+	- mmorpg 6.2.5
+	- mns 1.0.3-1.20-forge
+	- mns_compat 1.0.0
+	- modernfix 5.24.1+mc1.20.1
+	- modernui 3.11.1.6
+	- monsterplus 1.0
+	- ohthetreesyoullgrow 1.3.13
+	- paraglider 20.1.3
+	- placebo 8.6.3
+	- playeranimator 1.0.2-rc1+1.20
+	- prism 1.0.5
+	- puzzleslib 8.1.32
+		\-- puzzlesaccessapi 20.1.1
+	- roe_sfx 0.0.3
+	- roe_weapons 0.1.5b
+	- sodiumdynamiclights 1.0.9
+		\-- fabric_api_base 0.4.31+ef105b4977
+	- sophisticatedbackpacks 3.23.19.1263
+	- sophisticatedcore 1.2.71.1022
+	- swem 1.6.2
+	- terrablender 3.0.1.10
+	- terralith 2.5.4
+	- the_harvest 1.1.0
+	- tlskincape 1.32
+	- tombstone 9.0.1
+	- travelerscompass 3.1.03
+	- travelerstitles 1.20-Forge-4.0.2
+	- w2w2 1.0
+	- waystones 14.1.13
+	- xaerominimap 25.2.6
+	- xaeroworldmap 1.39.9
+	- yungsapi 1.20-Forge-4.0.6
+	- yungsbridges 1.20-Forge-4.0.3
+	- yungsextras 1.20-Forge-4.0.3
+[05Jul2025 00:40:15.315] [main/WARN] [mixin/]: Reference map 'mns-forge-refmap.json' for mns-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Jul2025 00:40:15.965] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[05Jul2025 00:40:15.993] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[05Jul2025 00:40:16.966] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/ItemInHandLayer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.ItemInHandLayer)
+[05Jul2025 00:40:16.966] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.ItemInHandLayer was not found mmorpg-mixins.json:PlayerAnimMixin
+[05Jul2025 00:40:17.102] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[05Jul2025 00:40:17.103] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[05Jul2025 00:40:17.103] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[05Jul2025 00:40:17.104] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[05Jul2025 00:40:17.104] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[05Jul2025 00:40:17.104] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[05Jul2025 00:40:17.105] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[05Jul2025 00:40:17.105] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[05Jul2025 00:40:17.219] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[05Jul2025 00:40:17.716] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (10.70 s after launch)
+[05Jul2025 00:40:17.831] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[05Jul2025 00:40:17.831] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[05Jul2025 00:40:19.101] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1382 milliseconds
+[05Jul2025 00:40:19.629] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[05Jul2025 00:40:19.630] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[05Jul2025 00:40:19.655] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[05Jul2025 00:40:19.656] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[05Jul2025 00:40:20.635] [main/WARN] [mixin/]: Method overwrite conflict for scheduleRandomTick in corgilib-common.mixins.json:chunk.MixinChunkAccess, previously written by dev.corgitaco.ohthetreesyoullgrow.mixin.chunk.MixinChunkAccess. Skipping method.
+[05Jul2025 00:40:20.636] [main/WARN] [mixin/]: Method overwrite conflict for getScheduledRandomTicks in corgilib-common.mixins.json:chunk.MixinChunkAccess, previously written by dev.corgitaco.ohthetreesyoullgrow.mixin.chunk.MixinChunkAccess. Skipping method.
+[05Jul2025 00:40:21.990] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : the_harvest
+[05Jul2025 00:40:22.080] [modloading-worker-0/INFO] [MaxHealthFix/]: Loaded maxhealthfix for Forge.
+[05Jul2025 00:40:22.143] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[05Jul2025 00:40:22.143] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[05Jul2025 00:40:22.143] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[05Jul2025 00:40:22.143] [modloading-worker-0/INFO] [STDOUT/]: [com.robertx22.the_harvest.main.HarvestMain:<init>:221]: The Harvest loaded.
+[05Jul2025 00:40:22.143] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[05Jul2025 00:40:22.143] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[05Jul2025 00:40:22.144] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[05Jul2025 00:40:22.144] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[05Jul2025 00:40:22.428] [modloading-worker-0/INFO] [Better Compatibility Checker/]: Better Compatibility Checker starting
+[05Jul2025 00:40:22.456] [modloading-worker-0/INFO] [net.poe.entitylootdrops.EntityLootDrops/]: Registered FishingEventHandler
+[05Jul2025 00:40:22.466] [modloading-worker-0/INFO] [net.poe.entitylootdrops.EntityLootDrops/]: Entity Loot Drops mod initializing...
+[05Jul2025 00:40:22.474] [modloading-worker-0/INFO] [net.poe.entitylootdrops.lootdrops.config.LootConfigLoader/]: Starting loot configuration loading...
+[05Jul2025 00:40:22.474] [modloading-worker-0/INFO] [net.poe.entitylootdrops.lootdrops.config.LootConfigLoader/]: Creating configuration directories...
+[05Jul2025 00:40:22.480] [modloading-worker-0/INFO] [net.poe.entitylootdrops.lootdrops.config.EventConfig/]: Loaded event configuration from: config/EntityLootDrops/EventConfig.json
+[05Jul2025 00:40:22.480] [modloading-worker-0/INFO] [net.poe.entitylootdrops.lootdrops.config.LootConfigLoader/]: EventConfig loaded successfully
+[05Jul2025 00:40:22.480] [modloading-worker-0/INFO] [net.poe.entitylootdrops.lootdrops.config.LootConfigLoader/]: Active_Events.json created/verified
+[05Jul2025 00:40:22.497] [modloading-worker-0/INFO] [net.poe.entitylootdrops.lootdrops.config.LootConfigLoader/]: Loading custom messages from messages.json...
+[05Jul2025 00:40:22.498] [modloading-worker-0/INFO] [net.poe.entitylootdrops.lootdrops.config.LootConfigLoader/]: Loot configuration loading completed. Entity drops: 5, Hostile drops: 5
+[05Jul2025 00:40:22.499] [modloading-worker-0/INFO] [net.poe.entitylootdrops.lootdrops.LootConfig/]: Reloaded configuration: 5 entity drop types, 5 hostile drop types, 0 active events
+[05Jul2025 00:40:22.521] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[05Jul2025 00:40:22.522] [modloading-worker-0/INFO] [net.poe.entitylootdrops.blockdrops.BlockConfig/]: Loaded block configuration: 6 block types, 6 global drops, 0 active events
+[05Jul2025 00:40:22.524] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:key_pressed
+[05Jul2025 00:40:22.528] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:mode_changed
+[05Jul2025 00:40:22.531] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:sync_config_to_server
+[05Jul2025 00:40:22.617] [modloading-worker-0/INFO] [net.poe.entitylootdrops.recipes.RecipeConfig/]: Loaded recipe configuration: 13 total recipes, 1 enabled
+[05Jul2025 00:40:22.630] [modloading-worker-0/INFO] [net.poe.entitylootdrops.fishing.config.FishingConfig/]: Loaded 4 fishing drops and 2 global fishing rewards
+[05Jul2025 00:40:22.630] [modloading-worker-0/INFO] [net.poe.entitylootdrops.EntityLootDrops/]: Loaded FishingConfig
+[05Jul2025 00:40:22.636] [modloading-worker-0/INFO] [net.poe.entitylootdrops.ReadmeManager/]: Created all README files
+[05Jul2025 00:40:22.636] [modloading-worker-0/INFO] [net.poe.entitylootdrops.EntityLootDrops/]: Created README files
+[05Jul2025 00:40:22.636] [modloading-worker-0/INFO] [net.poe.entitylootdrops.EntityLootDrops/]: Initial config load complete
+[05Jul2025 00:40:22.820] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for betteranimationscollection:main
+[05Jul2025 00:40:22.841] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[05Jul2025 00:40:22.882] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:open_gui
+[05Jul2025 00:40:22.889] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:update_settings
+[05Jul2025 00:40:22.890] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:send_message
+[05Jul2025 00:40:22.902] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:create_party
+[05Jul2025 00:40:22.908] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:player_gui_operation
+[05Jul2025 00:40:22.914] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : mmorpg
+[05Jul2025 00:40:22.918] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[05Jul2025 00:40:22.936] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[05Jul2025 00:40:22.946] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : dungeon_realm
+[05Jul2025 00:40:22.954] [modloading-worker-0/INFO] [com.alaharranhonor.swem.forge.ModRef/]: No community packs found.
+[05Jul2025 00:40:23.427] [modloading-worker-0/INFO] [dungeon_realm/]: Dungeon Realm loaded.
+[05Jul2025 00:40:23.447] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[05Jul2025 00:40:23.447] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[05Jul2025 00:40:23.563] [modloading-worker-0/INFO] [roe.weapons.RoeWeaponsMod/]: Registering RoeWeapons configuration
+[05Jul2025 00:40:23.568] [modloading-worker-0/INFO] [roe.weapons.RoeWeaponsMod/]: RoeWeapons configuration registered
+[05Jul2025 00:40:24.014] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:submit_task
+[05Jul2025 00:40:24.021] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_reward
+[05Jul2025 00:40:24.026] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:get_emergency_items
+[05Jul2025 00:40:24.027] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_all_rewards
+[05Jul2025 00:40:24.028] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_choice_reward
+[05Jul2025 00:40:24.037] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_pinned
+[05Jul2025 00:40:24.038] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_chapter_pinned
+[05Jul2025 00:40:24.041] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_editing_mode
+[05Jul2025 00:40:24.044] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:force_save
+[05Jul2025 00:40:24.050] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:set_custom_image
+[05Jul2025 00:40:24.058] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:task_screen_config_resp
+[05Jul2025 00:40:24.062] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:change_progress
+[05Jul2025 00:40:24.063] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:create_object
+[05Jul2025 00:40:24.069] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:create_task_at
+[05Jul2025 00:40:24.070] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:delete_object
+[05Jul2025 00:40:24.071] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:edit_object
+[05Jul2025 00:40:24.072] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_chapter
+[05Jul2025 00:40:24.074] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_quest
+[05Jul2025 00:40:24.077] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:change_chapter_group
+[05Jul2025 00:40:24.079] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_chapter_group
+[05Jul2025 00:40:24.086] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:copy_quest
+[05Jul2025 00:40:24.091] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:copy_chapter_image
+[05Jul2025 00:40:24.095] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:sync_structures_request
+[05Jul2025 00:40:24.097] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:request_team_data
+[05Jul2025 00:40:24.219] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone items
+[05Jul2025 00:40:24.348] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Blocks
+[05Jul2025 00:40:24.386] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Wood
+[05Jul2025 00:40:24.388] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Block Entities
+[05Jul2025 00:40:24.391] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Entities
+[05Jul2025 00:40:24.392] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Creative Tabs
+[05Jul2025 00:40:24.392] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Sounds
+[05Jul2025 00:40:24.397] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Block Predicate
+[05Jul2025 00:40:24.402] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone State Providers
+[05Jul2025 00:40:24.404] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Tree Decorators
+[05Jul2025 00:40:24.416] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Custom Features
+[05Jul2025 00:40:24.417] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Structure Pieces
+[05Jul2025 00:40:24.418] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Custom Structure Types
+[05Jul2025 00:40:24.421] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Configured Features
+[05Jul2025 00:40:24.439] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Overworld Vegetation Configured Features
+[05Jul2025 00:40:24.513] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Tree Configured Features
+[05Jul2025 00:40:24.520] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Vanilla Configured Features
+[05Jul2025 00:40:24.527] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes You'll Go Overworld Configured Features
+[05Jul2025 00:40:24.537] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Placed Features
+[05Jul2025 00:40:24.548] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Overworld Tree Placed Features
+[05Jul2025 00:40:24.550] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[05Jul2025 00:40:24.564] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Overworld Vegetation Placed Features
+[05Jul2025 00:40:24.566] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Creating and Registering Vanilla Placed Features
+[05Jul2025 00:40:24.566] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Custom Surface Rules
+[05Jul2025 00:40:24.589] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Template Pools
+[05Jul2025 00:40:24.616] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biome's We've Gone Village Template Pools
+[05Jul2025 00:40:24.619] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Poi Types
+[05Jul2025 00:40:24.620] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Villager Professions
+[05Jul2025 00:40:24.622] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Custom Structure Processors
+[05Jul2025 00:40:24.623] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone villager types
+[05Jul2025 00:40:24.624] [modloading-worker-0/INFO] [Exile Log: com.robertx22.library_of_exile.registry.helpers.OrderedModConstructor/]: Mod Constructor Registered : library_of_exile
+[05Jul2025 00:40:24.624] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Schedules
+[05Jul2025 00:40:24.627] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Memory Module Types
+[05Jul2025 00:40:24.633] [modloading-worker-0/INFO] [net.potionstudios.biomeswevegone.BiomesWeveGone/]: Registering Oh The Biomes We've Gone Sensor Types
+[05Jul2025 00:40:24.791] [modloading-worker-0/INFO] [ModernUI-MC/Init]: Initialized Modern UI
+[05Jul2025 00:40:24.829] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[05Jul2025 00:40:24.997] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config :emi_loot_config in 981ms
+[05Jul2025 00:40:26.908] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[05Jul2025 00:40:26.908] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
+[05Jul2025 00:40:27.880] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.GrimReaperEntity from class forge.net.mca.util.network.datasync.CEnumParameter
+[05Jul2025 00:40:27.892] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.893] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.893] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.893] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.894] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.894] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.894] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.894] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[05Jul2025 00:40:27.898] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.899] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.899] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.900] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.900] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.901] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.901] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.902] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.902] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.903] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.903] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.904] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[05Jul2025 00:40:27.904] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.909] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.910] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[05Jul2025 00:40:27.910] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.911] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[05Jul2025 00:40:27.911] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[05Jul2025 00:40:27.912] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.912] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.913] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.913] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.914] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.916] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.922] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.923] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.924] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.925] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.925] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.VillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:27.927] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.GlowSquid from class com.nitespring.monsterplus.common.entity.GlowSkeleton
+[05Jul2025 00:40:28.223] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[05Jul2025 00:40:28.303] [main/INFO] [roe.weapons.RoeWeaponsMod/]: RoeWeapons config loaded
+[05Jul2025 00:40:28.512] [modloading-worker-0/INFO] [Better Compatibility Checker/]: Better Compatibility Checker setup
+[05Jul2025 00:40:28.518] [modloading-worker-0/INFO] [net.poe.entitylootdrops.EntityLootDrops/]: Entity Loot Drops setup complete
+[05Jul2025 00:40:28.552] [modloading-worker-0/INFO] [FTB XMod Compat/]: Chose [Entity Tags] as the active game stages implementation
+[05Jul2025 00:40:28.557] [modloading-worker-0/INFO] [FTB XMod Compat/]: Chose [FALLBACK] as the active permissions implementation
+[05Jul2025 00:40:28.559] [modloading-worker-0/INFO] [FTB XMod Compat/]: [FTB Quests] recipe helper provider is [JEI]
+[05Jul2025 00:40:28.626] [modloading-worker-0/INFO] [CorgiLib/]: Initializing network...
+[05Jul2025 00:40:28.631] [modloading-worker-0/INFO] [CorgiLib/]: Initialized network!
+[05Jul2025 00:40:28.636] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Starting version check at https://mc-update-check.anthonyhilyard.com/638111
+[05Jul2025 00:40:28.741] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: mmorpg_stat_condition already exists as seriazable: random_roll
+[05Jul2025 00:40:28.962] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Found status: UP_TO_DATE Current: 1.0.5 Target: null
+[05Jul2025 00:40:28.962] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [maxhealthfix] Starting version check at https://updates.blamejared.com/get?n=maxhealthfix&gv=1.20.1
+[05Jul2025 00:40:28.977] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: mmorpg_gear_rarity already exists as seriazable: common
+[05Jul2025 00:40:28.977] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: mmorpg_gear_rarity already exists as seriazable: uncommon
+[05Jul2025 00:40:28.980] [modloading-worker-0/WARN] [Exile Log: com.robertx22.library_of_exile.registry.ExileRegistryContainer/]: Entry of type: library_of_exile_item_requirement already exists as seriazable: is_map
+[05Jul2025 00:40:29.314] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [maxhealthfix] Found status: BETA Current: 12.0.3 Target: 12.0.3
+[05Jul2025 00:40:29.314] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[05Jul2025 00:40:29.338] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[05Jul2025 00:40:29.338] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[05Jul2025 00:40:29.338] [main/INFO] [terrablender/]: Registered region biomeswevegone:region_0 to index 1 for type OVERWORLD
+[05Jul2025 00:40:29.338] [main/INFO] [terrablender/]: Registered region biomeswevegone:region_1 to index 2 for type OVERWORLD
+[05Jul2025 00:40:29.338] [main/INFO] [terrablender/]: Registered region biomeswevegone:region_2 to index 3 for type OVERWORLD
+[05Jul2025 00:40:29.414] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.13 Target: 20.2.13
+[05Jul2025 00:40:29.414] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[05Jul2025 00:40:29.452] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 9.0.1 Target: null
+[05Jul2025 00:40:29.453] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [betteranimationscollection] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/betteranimationscollection.json
+[05Jul2025 00:40:29.457] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[05Jul2025 00:40:29.458] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[05Jul2025 00:40:29.468] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [betteranimationscollection] Found status: UP_TO_DATE Current: 8.0.0 Target: null
+[05Jul2025 00:40:29.468] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Starting version check at https://updates.blamejared.com/get?n=attributefix&gv=1.20.1
+[05Jul2025 00:40:29.481] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[05Jul2025 00:40:29.481] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[05Jul2025 00:40:29.568] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Found status: BETA Current: 21.0.4 Target: 21.0.4
+[05Jul2025 00:40:29.568] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeitweaker] Starting version check at https://updates.blamejared.com/get?n=JEITweaker&gv=1.20.1
+[05Jul2025 00:40:29.668] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeitweaker] Found status: BETA Current: 8.0.6 Target: 8.0.6
+[05Jul2025 00:40:29.669] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crafttweaker] Starting version check at https://updates.blamejared.com/get?n=crafttweaker&gv=1.20.1
+[05Jul2025 00:40:29.765] [modloading-worker-0/INFO] [AttributeFix/]: Loaded values for 39 compatible attributes.
+[05Jul2025 00:40:29.771] [modloading-worker-0/INFO] [AttributeFix/]: Loaded 39 values from config.
+[05Jul2025 00:40:29.775] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crafttweaker] Found status: BETA Current: 14.0.57 Target: 14.0.57
+[05Jul2025 00:40:29.775] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[05Jul2025 00:40:29.778] [modloading-worker-0/INFO] [AttributeFix/]: Saving config file. 39 entries.
+[05Jul2025 00:40:29.779] [modloading-worker-0/INFO] [AttributeFix/]: Applying changes for 39 attributes.
+[05Jul2025 00:40:29.787] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 20.1.1 Target: null
+[05Jul2025 00:40:29.787] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[05Jul2025 00:40:29.819] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
+[05Jul2025 00:40:29.830] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[05Jul2025 00:40:29.831] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.nine.travelerscompass.compat.jade.JadeRegistry
+[05Jul2025 00:40:29.833] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[05Jul2025 00:40:29.833] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[05Jul2025 00:40:29.851] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[05Jul2025 00:40:29.855] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[05Jul2025 00:40:29.890] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
+[05Jul2025 00:40:29.894] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
+[05Jul2025 00:40:29.897] [main/INFO] [citadel/]: Added 0 modded biome surface rule types via terrablender
+[05Jul2025 00:40:29.934] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
+[05Jul2025 00:40:29.935] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
+[05Jul2025 00:40:29.961] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Found status: UP_TO_DATE Current: 1.1.25 Target: null
+[05Jul2025 00:40:29.962] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
+[05Jul2025 00:40:29.973] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.26 Target: null
+[05Jul2025 00:40:29.973] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[05Jul2025 00:40:29.983] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.32 Target: null
+[05Jul2025 00:40:30.470] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05Jul2025 00:40:30.824] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Quest-Arise/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23291!/assets/.mcassetsroot' uses unexpected schema
+[05Jul2025 00:40:30.824] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Quest-Arise/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23291!/data/.mcassetsroot' uses unexpected schema
+[05Jul2025 00:40:30.923] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack file/RoE.zip, loading it automatically
+[05Jul2025 00:40:30.924] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack file/mineandslash.zip, loading it automatically
+[05Jul2025 00:40:32.412] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[05Jul2025 00:40:35.066] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:mmorpg:currencies_salvage_recipe
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'the_harvest:armor_enchant_epic'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.0-universal.jar%23296!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.0-universal.jar%23296!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[05Jul2025 00:40:35.091] [Worker-Main-2/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file mmorpg:dagger from mmorpg:mmorpg_weapon_type/dagger.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Expected ':' at line 11 column 6 path $.damage_validity_check.RANGED_ATTACK
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at com.robertx22.library_of_exile.registry.loaders.BaseDataPackLoader.m_5944_(BaseDataPackLoader.java:46) ~[Library_of_Exile-1.20.1-2.1.0.jar%23243!/:?]
+	at com.robertx22.library_of_exile.registry.loaders.BaseDataPackLoader.m_5944_(BaseDataPackLoader.java:18) ~[Library_of_Exile-1.20.1-2.1.0.jar%23243!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Expected ':' at line 11 column 6 path $.damage_validity_check.RANGED_ATTACK
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1657) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:539) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:786) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	... 14 more
+[05Jul2025 00:40:35.093] [Worker-Main-2/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file mmorpg:scythe from mmorpg:mmorpg_weapon_type/scythe.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 6 column 6 path $.damage_validity_check.contains_in_dmg_id[1]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at com.robertx22.library_of_exile.registry.loaders.BaseDataPackLoader.m_5944_(BaseDataPackLoader.java:46) ~[Library_of_Exile-1.20.1-2.1.0.jar%23243!/:?]
+	at com.robertx22.library_of_exile.registry.loaders.BaseDataPackLoader.m_5944_(BaseDataPackLoader.java:18) ~[Library_of_Exile-1.20.1-2.1.0.jar%23243!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 6 column 6 path $.damage_validity_check.contains_in_dmg_id[1]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1657) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1463) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:569) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:422) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:779) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	... 14 more
+[05Jul2025 00:40:35.175] [Worker-Main-2/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file mmorpg:greatsword from mmorpg:mmorpg_base_gear_types/greatsword.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Expected name at line 23 column 6 path $.req.scaling_req.strength
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:581) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_278771_(SimpleJsonResourceReloadListener.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at com.robertx22.library_of_exile.registry.loaders.BaseDataPackLoader.m_5944_(BaseDataPackLoader.java:46) ~[Library_of_Exile-1.20.1-2.1.0.jar%23243!/:?]
+	at com.robertx22.library_of_exile.registry.loaders.BaseDataPackLoader.m_5944_(BaseDataPackLoader.java:18) ~[Library_of_Exile-1.20.1-2.1.0.jar%23243!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 23 column 6 path $.req.scaling_req.strength
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1657) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:514) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:422) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:779) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	... 14 more
+[05Jul2025 00:40:35.231] [Worker-Main-3/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: mmorpg:mmorpg_entity/all_mobs_in_mod/Iceanfire_mobs.json, ignoring
+[05Jul2025 00:40:35.665] [main/INFO] [emi_loot/]: parsing loot tables
+[05Jul2025 00:40:35.760] [main/ERROR] [emi_loot/]: Critical error encountered while parsing Loot Table dungeons_arise:chests/illager_fort/illager_fort_treasure
+[05Jul2025 00:40:35.761] [main/ERROR] [emi_loot/]: Thrown Error: 
+org.spongepowered.asm.mixin.transformer.throwables.IllegalClassLoadError: Illegal classload request for accessor mixin fzzyhmstrs.emi_loot.mixins.SetAttributesLootFunctionAccessor. The mixin is missing from emi_loot.mixins.json which owns package fzzyhmstrs.emi_loot.mixins.* and the mixin has not been applied.
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:334) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-10.0.9.jar%2355!/:10.0.9+10.0.9+main.dcd20f30]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at fzzyhmstrs.emi_loot.parser.function.SetAttributesFunctionParser.parseFunction(SetAttributesFunctionParser.java:23) ~[emi_loot-0.7.6+1.20.1+forge.jar%23220!/:?]
+	at fzzyhmstrs.emi_loot.parser.registry.LootParserRegistry.parseFunction(LootParserRegistry.java:85) ~[emi_loot-0.7.6+1.20.1+forge.jar%23220!/:?]
+	at fzzyhmstrs.emi_loot.parser.LootTableParser.parseLootFunction(LootTableParser.java:610) ~[emi_loot-0.7.6+1.20.1+forge.jar%23220!/:?]
+	at fzzyhmstrs.emi_loot.parser.LootTableParser.applyLootFunctionToItem(LootTableParser.java:637) ~[emi_loot-0.7.6+1.20.1+forge.jar%23220!/:?]
+	at fzzyhmstrs.emi_loot.parser.LootTableParser.parseItemEntry(LootTableParser.java:484) ~[emi_loot-0.7.6+1.20.1+forge.jar%23220!/:?]
+	at fzzyhmstrs.emi_loot.parser.LootTableParser.parseItemEntry(LootTableParser.java:480) ~[emi_loot-0.7.6+1.20.1+forge.jar%23220!/:?]
+	at fzzyhmstrs.emi_loot.parser.LootTableParser.parseLootPoolEntry(LootTableParser.java:460) ~[emi_loot-0.7.6+1.20.1+forge.jar%23220!/:?]
+	at fzzyhmstrs.emi_loot.parser.LootTableParser.parseLootPoolEntry(LootTableParser.java:453) ~[emi_loot-0.7.6+1.20.1+forge.jar%23220!/:?]
+	at fzzyhmstrs.emi_loot.parser.LootTableParser.parseLootPoolEntry(LootTableParser.java:441) ~[emi_loot-0.7.6+1.20.1+forge.jar%23220!/:?]
+	at fzzyhmstrs.emi_loot.parser.LootTableParser.parseChestLootTable(LootTableParser.java:279) ~[emi_loot-0.7.6+1.20.1+forge.jar%23220!/:?]
+	at fzzyhmstrs.emi_loot.parser.LootTableParser.parseLootTable(LootTableParser.java:180) ~[emi_loot-0.7.6+1.20.1+forge.jar%23220!/:?]
+	at fzzyhmstrs.emi_loot.parser.LootTableParser.lambda$parseLootTables$5(LootTableParser.java:148) ~[emi_loot-0.7.6+1.20.1+forge.jar%23220!/:?]
+	at com.google.common.collect.RegularImmutableMap.forEach(RegularImmutableMap.java:292) ~[guava-31.1-jre.jar%2374!/:?]
+	at fzzyhmstrs.emi_loot.parser.LootTableParser.parseLootTables(LootTableParser.java:146) ~[emi_loot-0.7.6+1.20.1+forge.jar%23220!/:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.md3344f3$lambda$emi_loot_readTablesAfterFabricForRealSimple$0$0(SimpleReloadInstance.java:1023) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[05Jul2025 00:40:35.783] [main/INFO] [emi_loot/]: finished parsing loot tables
+[05Jul2025 00:40:35.791] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_three_green as it's serializer returned null
+[05Jul2025 00:40:35.799] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_two_white as it's serializer returned null
+[05Jul2025 00:40:35.800] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_three_yellow as it's serializer returned null
+[05Jul2025 00:40:35.801] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:sweconm_exchange_coin_netherite as it's serializer returned null
+[05Jul2025 00:40:35.802] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_three_black as it's serializer returned null
+[05Jul2025 00:40:35.804] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe sweconm:swem_exchange_thym_diamond as it's serializer returned null
+[05Jul2025 00:40:35.805] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_rchampion as it's serializer returned null
+[05Jul2025 00:40:35.807] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_three_gray as it's serializer returned null
+[05Jul2025 00:40:35.809] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe sweconm:swem_exchange_thym_netherite as it's serializer returned null
+[05Jul2025 00:40:35.811] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_two_cyan as it's serializer returned null
+[05Jul2025 00:40:35.814] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:sweconm_exchange_coin_diamond as it's serializer returned null
+[05Jul2025 00:40:35.816] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_two_lime as it's serializer returned null
+[05Jul2025 00:40:35.822] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_two_blue as it's serializer returned null
+[05Jul2025 00:40:35.827] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_two_black as it's serializer returned null
+[05Jul2025 00:40:35.834] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_two_green as it's serializer returned null
+[05Jul2025 00:40:35.835] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:sweconm_exchange_coin_gold as it's serializer returned null
+[05Jul2025 00:40:35.838] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_three_pink as it's serializer returned null
+[05Jul2025 00:40:35.840] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:sweconm_exchange_coin_amethyst as it's serializer returned null
+[05Jul2025 00:40:35.842] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe sweconm:swem_exchange_thym_copper as it's serializer returned null
+[05Jul2025 00:40:35.844] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe sweconm:swem_exchange_thym_iron as it's serializer returned null
+[05Jul2025 00:40:35.849] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_two_orange as it's serializer returned null
+[05Jul2025 00:40:35.852] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:plaque_bronze as it's serializer returned null
+[05Jul2025 00:40:35.855] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:sweconm_exchange_coin_iron as it's serializer returned null
+[05Jul2025 00:40:35.856] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_three_white as it's serializer returned null
+[05Jul2025 00:40:35.862] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:token_breeding_horse as it's serializer returned null
+[05Jul2025 00:40:35.865] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_three_orange as it's serializer returned null
+[05Jul2025 00:40:35.866] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:trophy_bronze as it's serializer returned null
+[05Jul2025 00:40:35.866] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_two_purple as it's serializer returned null
+[05Jul2025 00:40:35.867] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_two_magenta as it's serializer returned null
+[05Jul2025 00:40:35.869] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_two_light_blue as it's serializer returned null
+[05Jul2025 00:40:35.871] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_three_purple as it's serializer returned null
+[05Jul2025 00:40:35.872] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_three_light_gray as it's serializer returned null
+[05Jul2025 00:40:35.872] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_two_red as it's serializer returned null
+[05Jul2025 00:40:35.874] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_two_pink as it's serializer returned null
+[05Jul2025 00:40:35.879] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:trophy_silver as it's serializer returned null
+[05Jul2025 00:40:35.881] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:trophy_gold as it's serializer returned null
+[05Jul2025 00:40:35.881] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_three_brown as it's serializer returned null
+[05Jul2025 00:40:35.882] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe sweconm:swem_exchange_thym_emerald as it's serializer returned null
+[05Jul2025 00:40:35.883] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_two_light_gray as it's serializer returned null
+[05Jul2025 00:40:35.884] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe sweconm:swem_exchange_thym_amethyst as it's serializer returned null
+[05Jul2025 00:40:35.887] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_three_light_blue as it's serializer returned null
+[05Jul2025 00:40:35.894] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_three_blue as it's serializer returned null
+[05Jul2025 00:40:35.896] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_two_brown as it's serializer returned null
+[05Jul2025 00:40:35.896] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_three_lime as it's serializer returned null
+[05Jul2025 00:40:35.898] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_three_cyan as it's serializer returned null
+[05Jul2025 00:40:35.900] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_two_yellow as it's serializer returned null
+[05Jul2025 00:40:35.901] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_two_gray as it's serializer returned null
+[05Jul2025 00:40:35.906] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_three_magenta as it's serializer returned null
+[05Jul2025 00:40:35.907] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_three_red as it's serializer returned null
+[05Jul2025 00:40:35.908] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:plaque_silver as it's serializer returned null
+[05Jul2025 00:40:35.909] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe sweconm:swem_exchange_thym_gold as it's serializer returned null
+[05Jul2025 00:40:35.909] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:sweconm_exchange_coin_emerald as it's serializer returned null
+[05Jul2025 00:40:35.910] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:sweconm_exchange_coin_copper as it's serializer returned null
+[05Jul2025 00:40:35.912] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:ribbon_champion as it's serializer returned null
+[05Jul2025 00:40:35.913] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe swem:plaque_gold as it's serializer returned null
+[05Jul2025 00:40:35.917] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 11 recipes
+[05Jul2025 00:40:36.107] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3774 advancements
+[05Jul2025 00:40:36.116] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[05Jul2025 00:40:36.139] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[05Jul2025 00:40:36.154] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[05Jul2025 00:40:36.156] [main/ERROR] [bettervillage/]: Ice And Fire compatibility is not enabled for Better Village and Ice And Fire is present in your mod list.
+     - Please install the datapack for better compatibility between Better Villages and Ice And Fire.
+     - You can find the datapack URL in the `compatibility` section of the Better Villages description.
+     - URL=https://www.curseforge.com/minecraft/mc-mods/better-village-forge
+[05Jul2025 00:40:36.246] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id mimi:witch_witchpipe - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: mimi:generic_add_drop
+[05Jul2025 00:40:36.247] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id mimi:skeleton_bonelute - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: mimi:generic_add_drop
+[05Jul2025 00:40:36.258] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id swem:bastion_treasure - error: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: swem:longsword_gold
+[05Jul2025 00:40:36.260] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id swem:end_city_treasure - error: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: swem:longsword_gold; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: swem:flight_feather
+[05Jul2025 00:40:36.260] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id swem:nether_bridge - error: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: swem:longsword_gold
+[05Jul2025 00:40:36.261] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id swem:stronghold - error: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: swem:longsword_iron; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: swem:flight_feather
+[05Jul2025 00:40:36.263] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id swem:treasure - error: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: swem:dehydrate_rainbow
+[05Jul2025 00:40:36.264] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id swem:woodland_mansion - error: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: swem:longsword_iron; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: swem:flight_feather
+[05Jul2025 00:40:37.118] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[05Jul2025 00:40:37.748] [main/WARN] [ModernFix/]: Initial datapack load took 6.876 s
+[05Jul2025 00:40:37.947] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[05Jul2025 00:40:37.947] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[05Jul2025 00:40:37.948] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[05Jul2025 00:40:37.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[05Jul2025 00:40:38.090] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[05Jul2025 00:40:38.115] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[05Jul2025 00:40:38.185] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05Jul2025 00:40:38.186] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[05Jul2025 00:40:38.186] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05Jul2025 00:40:38.186] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[05Jul2025 00:40:38.418] [Server thread/INFO] [FTB Teams/]: loaded team data: 1 known players, 1 teams total
+[05Jul2025 00:40:38.427] [Server thread/INFO] [HorseDataManager/]: Loading horse data...
+[05Jul2025 00:40:38.442] [Server thread/INFO] [HorseDataManager/]: Loaded 12 horse data.
+[05Jul2025 00:40:38.461] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[05Jul2025 00:40:38.691] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[05Jul2025 00:40:38.692] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[05Jul2025 00:40:39.073] [Server thread/INFO] [HorseDataManager/]: Loading horse data...
+[05Jul2025 00:40:39.077] [Server thread/INFO] [HorseDataManager/]: Loaded 12 horse data.
+[05Jul2025 00:40:39.233] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.CribEntity from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.234] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.CribEntity from class forge.net.mca.util.network.datasync.CEnumParameter
+[05Jul2025 00:40:39.234] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.CribEntity from class forge.net.mca.util.network.datasync.CEnumParameter
+[05Jul2025 00:40:39.288] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.289] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.289] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.289] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.290] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.290] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.290] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.291] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[05Jul2025 00:40:39.291] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.291] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.292] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.292] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.292] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.293] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.293] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.293] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.293] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.294] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.294] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.294] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[05Jul2025 00:40:39.295] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.295] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.295] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[05Jul2025 00:40:39.295] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.296] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[05Jul2025 00:40:39.296] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[05Jul2025 00:40:39.296] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.297] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.297] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.297] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.297] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.298] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.298] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.298] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.298] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.299] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.299] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[05Jul2025 00:40:39.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[05Jul2025 00:40:41.258] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Jul2025 00:40:41.258] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Jul2025 00:40:41.259] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Jul2025 00:40:41.259] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Jul2025 00:40:41.591] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Jul2025 00:40:41.871] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2282 ms
+[05Jul2025 00:40:41.872] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.675s)! For help, type "help"
+[05Jul2025 00:40:41.915] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[05Jul2025 00:40:41.918] [Server thread/INFO] [xaero.map.WorldMap/]: Registered synced player tracker system: ftb_teams
+[05Jul2025 00:40:41.919] [Server thread/INFO] [net.poe.entitylootdrops.EntityLootDrops/]: Server starting - reloading configurations...
+[05Jul2025 00:40:41.919] [Server thread/INFO] [net.poe.entitylootdrops.lootdrops.config.LootConfigLoader/]: Starting loot configuration loading...
+[05Jul2025 00:40:41.920] [Server thread/INFO] [net.poe.entitylootdrops.lootdrops.config.LootConfigLoader/]: Creating configuration directories...
+[05Jul2025 00:40:41.921] [Server thread/INFO] [net.poe.entitylootdrops.lootdrops.config.EventConfig/]: Loaded event configuration from: config/EntityLootDrops/EventConfig.json
+[05Jul2025 00:40:41.921] [Server thread/INFO] [net.poe.entitylootdrops.lootdrops.config.LootConfigLoader/]: EventConfig loaded successfully
+[05Jul2025 00:40:41.921] [Server thread/INFO] [net.poe.entitylootdrops.lootdrops.config.LootConfigLoader/]: Active_Events.json created/verified
+[05Jul2025 00:40:41.926] [Server thread/INFO] [net.poe.entitylootdrops.lootdrops.config.LootConfigLoader/]: Loading custom messages from messages.json...
+[05Jul2025 00:40:41.926] [Server thread/INFO] [net.poe.entitylootdrops.lootdrops.config.LootConfigLoader/]: Loot configuration loading completed. Entity drops: 5, Hostile drops: 5
+[05Jul2025 00:40:41.927] [Server thread/INFO] [net.poe.entitylootdrops.lootdrops.LootConfig/]: Reloaded configuration: 5 entity drop types, 5 hostile drop types, 0 active events
+[05Jul2025 00:40:41.933] [Server thread/INFO] [net.poe.entitylootdrops.blockdrops.BlockConfig/]: Loaded block configuration: 6 block types, 6 global drops, 0 active events
+[05Jul2025 00:40:41.938] [Server thread/INFO] [net.poe.entitylootdrops.recipes.RecipeConfig/]: Loaded recipe configuration: 13 total recipes, 1 enabled
+[05Jul2025 00:40:41.939] [Server thread/INFO] [net.poe.entitylootdrops.fishing.config.FishingConfig/]: Loaded 4 fishing drops and 2 global fishing rewards
+[05Jul2025 00:40:41.939] [Server thread/INFO] [net.poe.entitylootdrops.EntityLootDrops/]: Reloaded FishingConfig
+[05Jul2025 00:40:41.943] [Server thread/INFO] [net.poe.entitylootdrops.blockdrops.regeneration.BlockRegenerationManager/]: Loaded 0 regenerating blocks from disk
+[05Jul2025 00:40:41.944] [Server thread/INFO] [net.poe.entitylootdrops.EntityLootDrops/]: No regenerating blocks found from previous session
+[05Jul2025 00:40:41.944] [Server thread/INFO] [net.poe.entitylootdrops.EntityLootDrops/]: Loaded 1 normal drops
+[05Jul2025 00:40:41.944] [Server thread/INFO] [net.poe.entitylootdrops.EntityLootDrops/]: Loaded 2 hostile drops
+[05Jul2025 00:40:41.945] [Server thread/INFO] [net.poe.entitylootdrops.EntityLootDrops/]: Loaded 4 event types
+[05Jul2025 00:40:41.945] [Server thread/INFO] [net.poe.entitylootdrops.EntityLootDrops/]: Active events: []
+[05Jul2025 00:40:41.945] [Server thread/INFO] [net.poe.entitylootdrops.EntityLootDrops/]: Loaded 5 block drop types
+[05Jul2025 00:40:41.945] [Server thread/INFO] [net.poe.entitylootdrops.EntityLootDrops/]: Active block events: []
+[05Jul2025 00:40:41.946] [Server thread/INFO] [net.poe.entitylootdrops.EntityLootDrops/]: Loaded 1 custom recipes
+[05Jul2025 00:40:41.946] [Server thread/INFO] [net.poe.entitylootdrops.EntityLootDrops/]: Loaded 1 enabled custom recipes
+[05Jul2025 00:40:41.946] [Server thread/INFO] [net.poe.entitylootdrops.EntityLootDrops/]: Loaded 4 fishing drops
+[05Jul2025 00:40:41.946] [Server thread/INFO] [net.poe.entitylootdrops.EntityLootDrops/]: Loaded 2 global fishing rewards
+[05Jul2025 00:40:41.946] [Server thread/INFO] [com.nitespring.monsterplus.MonsterPlus/]: HELLO from server starting
+[05Jul2025 00:40:41.947] [Server thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Registered synced player tracker system: ftb_teams
+[05Jul2025 00:40:41.952] [Server thread/INFO] [FTB Quests/]: Loading quests from /workspaces/Quest-Arise/servidor_minecraft/config/ftbquests/quests
+[05Jul2025 00:40:41.982] [Server thread/INFO] [FTB Quests/]: Loaded 1 chapter groups, 4 chapters, 65 quests, 12 reward tables
+[05Jul2025 00:40:41.996] [Server thread/INFO] [net.poe.entitylootdrops.recipes.RecipeConfig/]: Loaded recipe configuration: 13 total recipes, 1 enabled
+[05Jul2025 00:40:41.996] [Server thread/INFO] [net.poe.entitylootdrops.recipes.registration.RecipeRegistrationManager/]: Successfully removed recipe: minecraft:diamond_sword
+[05Jul2025 00:40:41.997] [Server thread/INFO] [net.poe.entitylootdrops.recipes.registration.RecipeRegistrationManager/]: Successfully removed original recipe: minecraft:diamond_sword
+[05Jul2025 00:40:41.998] [Server thread/INFO] [net.poe.entitylootdrops.recipes.registration.RecipeRegistrationManager/]: Registered 1 custom recipes, replaced 1 existing recipes
+[05Jul2025 00:40:41.998] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[05Jul2025 00:40:41.998] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[05Jul2025 00:40:42.002] [Server thread/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: roe_weapons:weapon_attributes/weapon_attributes guide.txt, ignoring
+[05Jul2025 00:40:42.003] [Server thread/WARN] [net.minecraft.server.packs.FilePackResources/]: Invalid path in datapack: roe_weapons:weapon_attributes/weapon_attributes guide.txt, ignoring
+[05Jul2025 00:40:42.081] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 111047 bytes (in 12 string chunks with the size of 10000)
+[05Jul2025 00:40:42.119] [Server thread/WARN] [ModernFix/]: Dedicated server took 35.106 seconds to load
+[05Jul2025 00:41:27.223] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[05Jul2025 00:41:27.287] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: TommyCQuill2803[/127.95.166.12:36593] logged in with entity id 456 at (622.4143322355184, 73.0, -478.6895166202752)
+[05Jul2025 00:41:27.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TommyCQuill2803 joined the game
+[05Jul2025 00:41:27.686] [Server thread/INFO] [Jade/]: Syncing config to TommyCQuill2803 (1d45f22b-bed2-347c-8667-347f5750b833)
+[05Jul2025 00:44:29.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[05Jul2025 00:44:29.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: mine and slash give exp TommyCQuill2803 400<--[HERE]
+[05Jul2025 00:46:58.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made TommyCQuill2803 a server operator
+[05Jul2025 00:48:17.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TommyCQuill2803 has made the advancement [Cover Me with Diamonds]
+[05Jul2025 00:48:18.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TommyCQuill2803 has made the advancement [Suit Up]
+[05Jul2025 00:49:59.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TommyCQuill2803: Set own game mode to Creative Mode]
+[05Jul2025 00:51:39.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TommyCQuill2803 has made the advancement [Take Aim]
+[05Jul2025 00:51:43.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TommyCQuill2803 has made the advancement [Monster Hunter]
+[05Jul2025 00:56:01.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TommyCQuill2803 has made the advancement ['X' Marks the Spot]
+[05Jul2025 00:56:58.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TommyCQuill2803 has made the advancement [Acquire Hardware]
+[05Jul2025 00:56:59.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TommyCQuill2803 has made the advancement [Diamonds!]
+[05Jul2025 00:57:31.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TommyCQuill2803 has made the advancement [A Strange Grave Dust]
+[05Jul2025 00:57:43.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TommyCQuill2803 has made the advancement [Knowledge of Death]
+[05Jul2025 00:57:43.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TommyCQuill2803 has made the advancement [Ashes 'n Bones]
+[05Jul2025 01:00:35.246] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillagerEntityMCA['Marcelle'/6018, l='ServerLevel[world]', x=1408.12, y=75.00, z=-1160.95] died: Marcelle was slain by TommyCQuill2803
+[05Jul2025 01:00:36.155] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillagerEntityMCA['Lydie'/6107, l='ServerLevel[world]', x=1407.22, y=75.00, z=-1161.59] died: Lydie was slain by TommyCQuill2803
+[05Jul2025 01:00:37.124] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillagerEntityMCA['Susanne'/6017, l='ServerLevel[world]', x=1407.15, y=75.00, z=-1161.49] died: Susanne was slain by TommyCQuill2803
+[05Jul2025 01:00:45.400] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillagerEntityMCA['David'/6188, l='ServerLevel[world]', x=1427.47, y=72.94, z=-1176.97] died: David was slain by TommyCQuill2803
+[05Jul2025 01:00:47.978] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillagerEntityMCA['Armand'/6210, l='ServerLevel[world]', x=1451.19, y=72.00, z=-1191.23] died: Armand was poked to death by a sweet berry bush
+[05Jul2025 01:00:49.506] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillagerEntityMCA['Marco'/6106, l='ServerLevel[world]', x=1415.96, y=73.00, z=-1184.98] died: Marco was slain by TommyCQuill2803
+[05Jul2025 01:00:53.678] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillagerEntityMCA['Christiane'/6202, l='ServerLevel[world]', x=1441.56, y=72.50, z=-1210.31] died: Christiane burned to death
+[05Jul2025 01:00:58.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TommyCQuill2803 has reached the goal [Easy Opening]
+[05Jul2025 01:01:01.729] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillagerEntityMCA['Catherine'/6395, l='ServerLevel[world]', x=1480.47, y=65.00, z=-1171.51] died: Catherine burned to death
+[05Jul2025 01:01:05.575] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillagerEntityMCA['Norbert'/6322, l='ServerLevel[world]', x=1464.01, y=68.00, z=-1212.96] died: Norbert burned to death
+[05Jul2025 01:01:08.577] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillagerEntityMCA['Céline'/6187, l='ServerLevel[world]', x=1427.45, y=73.00, z=-1157.42] died: Céline burned to death
+[05Jul2025 01:01:16.580] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillagerEntityMCA['Mathias'/6381, l='ServerLevel[world]', x=1470.28, y=70.94, z=-1187.47] died: Mathias burned to death
+[05Jul2025 01:01:20.576] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillagerEntityMCA['Christiane'/6216, l='ServerLevel[world]', x=1434.50, y=64.00, z=-1099.12] died: Christiane burned to death
+[05Jul2025 01:01:27.925] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillagerEntityMCA['Antoine'/6384, l='ServerLevel[world]', x=1477.25, y=70.00, z=-1220.72] died: Antoine burned to death
+[05Jul2025 01:01:29.475] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillagerEntityMCA['Cornelia'/6203, l='ServerLevel[world]', x=1470.49, y=70.10, z=-1185.76] died: Cornelia burned to death
+[05Jul2025 01:01:33.925] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillagerEntityMCA['Alphonse'/6380, l='ServerLevel[world]', x=1468.06, y=70.94, z=-1189.91] died: Alphonse burned to death
+[05Jul2025 01:02:09.975] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillagerEntityMCA['Gilbert'/6211, l='ServerLevel[world]', x=1451.60, y=72.00, z=-1195.60] died: Gilbert burned to death
+[05Jul2025 01:02:51.556] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: java.lang.RuntimeException: Items filtered too much, no possibility left, returning null!
+[05Jul2025 01:02:51.556] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/library_of_exile@2.1.0/com.robertx22.library_of_exile.registry.FilterListWrap.random(FilterListWrap.java:74)
+[05Jul2025 01:02:51.556] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/mmorpg@6.2.5/com.robertx22.mine_and_slash.loot.blueprints.bases.BaseGearTypePart.generateIfNull(BaseGearTypePart.java:22)
+[05Jul2025 01:02:51.556] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/mmorpg@6.2.5/com.robertx22.mine_and_slash.loot.blueprints.bases.BaseGearTypePart.generateIfNull(BaseGearTypePart.java:8)
+[05Jul2025 01:02:51.556] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/mmorpg@6.2.5/com.robertx22.mine_and_slash.loot.blueprints.bases.BlueprintPart.get(BlueprintPart.java:40)
+[05Jul2025 01:02:51.557] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/mmorpg@6.2.5/com.robertx22.mine_and_slash.loot.blueprints.GearBlueprint.generate(GearBlueprint.java:46)
+[05Jul2025 01:02:51.557] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/mmorpg@6.2.5/com.robertx22.mine_and_slash.loot.blueprints.ItemBlueprint.createStack(ItemBlueprint.java:35)
+[05Jul2025 01:02:51.557] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/mmorpg@6.2.5/com.robertx22.mine_and_slash.loot.generators.GearLootGen.generateOne(GearLootGen.java:29)
+[05Jul2025 01:02:51.557] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/mmorpg@6.2.5/com.robertx22.mine_and_slash.loot.generators.BaseLootGen.tryGenerate(BaseLootGen.java:42)
+[05Jul2025 01:02:51.557] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/mmorpg@6.2.5/com.robertx22.mine_and_slash.loot.MasterLootGen.populateOnce(MasterLootGen.java:102)
+[05Jul2025 01:02:51.557] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/mmorpg@6.2.5/com.robertx22.mine_and_slash.loot.MasterLootGen.generateLoot(MasterLootGen.java:34)
+[05Jul2025 01:02:51.558] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/mmorpg@6.2.5/com.robertx22.mine_and_slash.event_hooks.my_events.OnLootChestEvent.accept(OnLootChestEvent.java:28)
+[05Jul2025 01:02:51.558] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/mmorpg@6.2.5/com.robertx22.mine_and_slash.event_hooks.my_events.OnLootChestEvent.accept(OnLootChestEvent.java:17)
+[05Jul2025 01:02:51.558] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/library_of_exile@2.1.0/com.robertx22.library_of_exile.events.base.ExileEventCaller.lambda$callEvents$0(ExileEventCaller.java:23)
+[05Jul2025 01:02:51.558] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[05Jul2025 01:02:51.558] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/library_of_exile@2.1.0/com.robertx22.library_of_exile.events.base.ExileEventCaller.callEvents(ExileEventCaller.java:20)
+[05Jul2025 01:02:51.558] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/library_of_exile@2.1.0/com.robertx22.library_of_exile.mixin_methods.ChestGenLootMixin.onLootGen(ChestGenLootMixin.java:54)
+[05Jul2025 01:02:51.558] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.storage.loot.LootTable.handler$zpk000$onLootGen(LootTable.java:2526)
+[05Jul2025 01:02:51.559] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.storage.loot.LootTable.m_287188_(LootTable.java)
+[05Jul2025 01:02:51.559] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/lootr@0.7.35.91/noobanidus.mods.lootr.block.entities.LootrChestBlockEntity.unpackLootTable(LootrChestBlockEntity.java:279)
+[05Jul2025 01:02:51.559] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/lootr@0.7.35.91/noobanidus.mods.lootr.data.ChestData.createInventory(ChestData.java:363)
+[05Jul2025 01:02:51.559] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/lootr@0.7.35.91/noobanidus.mods.lootr.data.DataStorage.getInventory(DataStorage.java:338)
+[05Jul2025 01:02:51.559] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/lootr@0.7.35.91/noobanidus.mods.lootr.util.ChestUtil.handleLootChest(ChestUtil.java:142)
+[05Jul2025 01:02:51.560] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/lootr@0.7.35.91/noobanidus.mods.lootr.block.LootrChestBlock.m_6227_(LootrChestBlock.java:50)
+[05Jul2025 01:02:51.560] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778)
+[05Jul2025 01:02:51.560] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:343)
+[05Jul2025 01:02:51.560] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055)
+[05Jul2025 01:02:51.560] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34)
+[05Jul2025 01:02:51.560] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8)
+[05Jul2025 01:02:51.561] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+[05Jul2025 01:02:51.561] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+[05Jul2025 01:02:51.561] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+[05Jul2025 01:02:51.561] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+[05Jul2025 01:02:51.561] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+[05Jul2025 01:02:51.561] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+[05Jul2025 01:02:51.562] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+[05Jul2025 01:02:51.562] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+[05Jul2025 01:02:51.562] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+[05Jul2025 01:02:51.562] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+[05Jul2025 01:02:51.562] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$248(MinecraftServer.java)
+[05Jul2025 01:02:51.562] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.wrapOperation$zcg000$managedBlock(MinecraftServer.java:1856)
+[05Jul2025 01:02:51.563] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+[05Jul2025 01:02:51.563] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+[05Jul2025 01:02:51.563] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+[05Jul2025 01:02:51.563] [Server thread/INFO] [STDERR/]: [com.robertx22.library_of_exile.registry.FilterListWrap:random:76]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[05Jul2025 01:02:51.564] [Server thread/WARN] [Exile Log: com.robertx22.mine_and_slash.loot.blueprints.bases.BlueprintPart/]: Item is null even after being generated!
+[05Jul2025 01:02:51.564] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: java.lang.NullPointerException: Cannot invoke "com.robertx22.mine_and_slash.database.data.gear_types.bases.BaseGearType.getRandomItem(com.robertx22.mine_and_slash.database.data.rarities.GearRarity)" because the return value of "com.robertx22.mine_and_slash.loot.blueprints.bases.BaseGearTypePart.get()" is null
+[05Jul2025 01:02:51.564] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/mmorpg@6.2.5/com.robertx22.mine_and_slash.loot.blueprints.GearBlueprint.generate(GearBlueprint.java:46)
+[05Jul2025 01:02:51.564] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/mmorpg@6.2.5/com.robertx22.mine_and_slash.loot.blueprints.ItemBlueprint.createStack(ItemBlueprint.java:35)
+[05Jul2025 01:02:51.564] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/mmorpg@6.2.5/com.robertx22.mine_and_slash.loot.generators.GearLootGen.generateOne(GearLootGen.java:29)
+[05Jul2025 01:02:51.564] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/mmorpg@6.2.5/com.robertx22.mine_and_slash.loot.generators.BaseLootGen.tryGenerate(BaseLootGen.java:42)
+[05Jul2025 01:02:51.565] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/mmorpg@6.2.5/com.robertx22.mine_and_slash.loot.MasterLootGen.populateOnce(MasterLootGen.java:102)
+[05Jul2025 01:02:51.565] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/mmorpg@6.2.5/com.robertx22.mine_and_slash.loot.MasterLootGen.generateLoot(MasterLootGen.java:34)
+[05Jul2025 01:02:51.565] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/mmorpg@6.2.5/com.robertx22.mine_and_slash.event_hooks.my_events.OnLootChestEvent.accept(OnLootChestEvent.java:28)
+[05Jul2025 01:02:51.565] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/mmorpg@6.2.5/com.robertx22.mine_and_slash.event_hooks.my_events.OnLootChestEvent.accept(OnLootChestEvent.java:17)
+[05Jul2025 01:02:51.565] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/library_of_exile@2.1.0/com.robertx22.library_of_exile.events.base.ExileEventCaller.lambda$callEvents$0(ExileEventCaller.java:23)
+[05Jul2025 01:02:51.565] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[05Jul2025 01:02:51.565] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/library_of_exile@2.1.0/com.robertx22.library_of_exile.events.base.ExileEventCaller.callEvents(ExileEventCaller.java:20)
+[05Jul2025 01:02:51.566] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/library_of_exile@2.1.0/com.robertx22.library_of_exile.mixin_methods.ChestGenLootMixin.onLootGen(ChestGenLootMixin.java:54)
+[05Jul2025 01:02:51.566] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.storage.loot.LootTable.handler$zpk000$onLootGen(LootTable.java:2526)
+[05Jul2025 01:02:51.566] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.storage.loot.LootTable.m_287188_(LootTable.java)
+[05Jul2025 01:02:51.566] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/lootr@0.7.35.91/noobanidus.mods.lootr.block.entities.LootrChestBlockEntity.unpackLootTable(LootrChestBlockEntity.java:279)
+[05Jul2025 01:02:51.566] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/lootr@0.7.35.91/noobanidus.mods.lootr.data.ChestData.createInventory(ChestData.java:363)
+[05Jul2025 01:02:51.566] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/lootr@0.7.35.91/noobanidus.mods.lootr.data.DataStorage.getInventory(DataStorage.java:338)
+[05Jul2025 01:02:51.566] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/lootr@0.7.35.91/noobanidus.mods.lootr.util.ChestUtil.handleLootChest(ChestUtil.java:142)
+[05Jul2025 01:02:51.566] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/lootr@0.7.35.91/noobanidus.mods.lootr.block.LootrChestBlock.m_6227_(LootrChestBlock.java:50)
+[05Jul2025 01:02:51.567] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778)
+[05Jul2025 01:02:51.567] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:343)
+[05Jul2025 01:02:51.567] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055)
+[05Jul2025 01:02:51.567] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34)
+[05Jul2025 01:02:51.567] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8)
+[05Jul2025 01:02:51.567] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22)
+[05Jul2025 01:02:51.567] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+[05Jul2025 01:02:51.568] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+[05Jul2025 01:02:51.568] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+[05Jul2025 01:02:51.568] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+[05Jul2025 01:02:51.568] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+[05Jul2025 01:02:51.568] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+[05Jul2025 01:02:51.569] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+[05Jul2025 01:02:51.569] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+[05Jul2025 01:02:51.569] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+[05Jul2025 01:02:51.570] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$248(MinecraftServer.java)
+[05Jul2025 01:02:51.570] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.wrapOperation$zcg000$managedBlock(MinecraftServer.java:1856)
+[05Jul2025 01:02:51.570] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+[05Jul2025 01:02:51.570] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+[05Jul2025 01:02:51.570] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+[05Jul2025 01:02:51.570] [Server thread/INFO] [STDERR/]: [com.robertx22.mine_and_slash.loot.generators.BaseLootGen:tryGenerate:44]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[05Jul2025 01:03:07.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TommyCQuill2803: Set own game mode to Spectator Mode]
+[05Jul2025 01:04:41.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [TommyCQuill2803: Set own game mode to Creative Mode]
+[05Jul2025 01:07:04.330] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TommyCQuill2803 lost connection: Disconnected
+[05Jul2025 01:07:04.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TommyCQuill2803 left the game

@@ -1,0 +1,12 @@
+{
+	id: "54E82846E1341833"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ count: 24, item: "iceandfire:dragonscales_blue" }
+		{ count: 24, item: "iceandfire:dragonscales_white" }
+		{ count: 24, item: "iceandfire:dragonscales_sapphire" }
+		{ count: 24, item: "iceandfire:dragonscales_silver" }
+	]
+	title: "escamas de hielo"
+}

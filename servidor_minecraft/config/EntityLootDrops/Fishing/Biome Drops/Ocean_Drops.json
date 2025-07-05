@@ -1,0 +1,31 @@
+[
+  {
+    "name": "deep_ocean_treasure",
+    "biome": "minecraft:deep_ocean",
+    "chance": 0.03,
+    "minFishingLevel": 0,
+    "requiresLure": false,
+    "requiresLuckOfSea": true,
+    "rewards": [
+      {
+        "item": "minecraft:diamond",
+        "count": 1,
+        "minCount": 1,
+        "maxCount": 2,
+        "chance": 0.6
+      },
+      {
+        "item": "minecraft:enchanted_book",
+        "count": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "chance": 0.4,
+        "nbt": "{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1}]}"
+      }
+    ],
+    "commands": [
+      "tellraw {player} {\"text\":\"You found a deep ocean treasure!\",\"color\":\"gold\"}",
+      "playsound minecraft:entity.player.levelup player {player} ~ ~ ~ 1 0.5"
+    ]
+  }
+]

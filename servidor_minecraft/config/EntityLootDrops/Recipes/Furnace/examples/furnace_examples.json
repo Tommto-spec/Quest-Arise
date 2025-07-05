@@ -1,0 +1,19 @@
+[
+  {
+    "name": "coal_to_diamond",
+    "type": "furnace",
+    "enabled": false,
+    "_comment": "smelt coal into diamond",
+    "group": "alchemy",
+    "outputItem": "minecraft:diamond",
+    "outputCount": 1,
+    "outputNbt": "",
+    "input": "minecraft:coal",
+    "experience": 10.0,
+    "cookingTime": 400,
+    "craftCommands": [
+      "tellraw @p {\"text\":\"You turned coal into diamond!\",\"color\":\"aqua\"}"
+    ],
+    "commandChance": 100.0
+  }
+]

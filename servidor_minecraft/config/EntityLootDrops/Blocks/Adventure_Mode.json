@@ -1,0 +1,29 @@
+[
+  {
+    "enabled": false,
+    "dimension": "minecraft:overworld",
+    "allowedBlockBreakIDs": [
+      "minecraft:oak_log",
+      "minecraft:coal_ore",
+      "tag:forge:ores",
+      "tag:minecraft:logs",
+      "minecraft:stone"
+    ],
+    "preventBlockPlacement": true,
+    "allowedPlacementIDs": [
+      "minecraft:torch",
+      "minecraft:ladder",
+      "tag:minecraft:signs",
+      "tag:minecraft:beds"
+    ],
+    "preventBlockModification": true,
+    "allowedModificationIDs": [
+      "minecraft:dirt",
+      "minecraft:grass_block",
+      "tag:minecraft:logs"
+    ],
+    "breakMessage": "This block is protected and cannot be broken!",
+    "placeMessage": "You cannot place blocks here!",
+    "modifyMessage": "You cannot modify blocks here!"
+  }
+]

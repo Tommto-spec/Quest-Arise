@@ -1,0 +1,51 @@
+{
+	icon: {
+		Count: 1
+		id: "minecraft:chainmail_boots"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "5655A26E4C1BAF29"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			command: "/mine_and_slash give gear @s cloth_boots 3 rare 1"
+			icon: {
+				Count: 1
+				id: "minecraft:golden_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "Mago"
+			type: "command"
+		}
+		{
+			command: "/mine_and_slash give gear @s leather_boots 3 rare 1"
+			icon: {
+				Count: 1
+				id: "minecraft:leather_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "Arquero"
+			type: "command"
+		}
+		{
+			command: "/mine_and_slash give gear @s plate_boots 3 rare 1"
+			icon: {
+				Count: 1
+				id: "minecraft:iron_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "Guerrero"
+			type: "command"
+		}
+	]
+	title: "Botas"
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "nether_fishing_miracle",
+    "dimension": "minecraft:the_nether",
+    "chance": 0.01,
+    "minFishingLevel": 20,
+    "requiresLure": false,
+    "requiresLuckOfSea": false,
+    "rewards": [
+      {
+        "item": "minecraft:nether_star",
+        "count": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "chance": 0.1
+      },
+      {
+        "item": "minecraft:blaze_rod",
+        "count": 1,
+        "minCount": 1,
+        "maxCount": 3,
+        "chance": 0.5
+      }
+    ],
+    "commands": [
+      "tellraw {player} {\"text\":\"How did you fish in the Nether?!\",\"color\":\"red\"}",
+      "tellraw @a {\"text\":\"{player} performed a miracle - fishing in the Nether!\",\"color\":\"gold\"}"
+    ]
+  }
+]

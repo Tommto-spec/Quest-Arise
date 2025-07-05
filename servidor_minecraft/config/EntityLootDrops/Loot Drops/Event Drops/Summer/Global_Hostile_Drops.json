@@ -1,0 +1,20 @@
+[
+  {
+    "itemId": "minecraft:blaze_powder",
+    "dropChance": 20.0,
+    "minAmount": 1,
+    "maxAmount": 1,
+    "requiredTime": "day",
+    "requiredBiome": "minecraft:desert",
+    "commandChance": 100.0,
+    "dropCommand": "tellraw @a {\"text\":\"The summer heat intensifies the drop!\",\"color\":\"gold\"}",
+    "dropCommandChance": 30.0,
+    "_comment": "Summer event - Blaze powder from hostile mobs in hot biomes",
+    "requirePlayerKill": true,
+    "allowDefaultDrops": true,
+    "allowModIDs": [],
+    "extraDropChance": 0.0,
+    "extraAmountMin": 1,
+    "extraAmountMax": 1
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "enableDropChanceEvent": true,
+  "enableDoubleDropsEvent": true,
+  "affectVanillaDrops": true,
+  "affectModdedDrops": true,
+  "allowedMods": [
+    "minecraft",
+    "mmorpg",
+    "age_of_exile",
+    "mine_and_slash",
+    "dungeons_gear",
+    "reliquary"
+  ],
+  "blockedMods": [
+    "create",
+    "immersiveengineering"
+  ],
+  "dropChanceMultiplier": 0.5,
+  // ========================================
+// EntityLootDrops - Event Configuration
+// ========================================
+//
+// This file controls how drop chance and double drops events work
+// with different mods and vanilla Minecraft.
+//
+// EVENT SETTINGS:
+// enableDropChanceEvent: Allow drop chance events to be activated
+// enableDoubleDropsEvent: Allow double drops events to be activated
+//
+// MOD FILTERING:
+// affectVanillaDrops: Whether events affect vanilla Minecraft drops
+// affectModdedDrops: Whether events affect drops from other mods
+// allowedMods: List of mod IDs that events can affect (empty = all mods allowed)
+// blockedMods: List of mod IDs that events should never affect
+//
+// EVENT PARAMETERS:
+// dropChanceMultiplier: Chance multiplier for drop chance events (0.5 = 50% chance)
+//
+// POPULAR MOD IDs:
+// - minecraft (vanilla)
+// - mmorpg (Mine and Slash)
+// - age_of_exile
+// - dungeons_gear
+// - reliquary
+// - create
+// - immersiveengineering
+//
+"comment": "Event configuration for EntityLootDrops mod - Controls how drop events affect different mods"
+}

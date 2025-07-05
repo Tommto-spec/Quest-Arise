@@ -1,0 +1,19 @@
+{
+  "blockId": "minecraft:stone",
+  "itemId": "minecraft:emerald",
+  "dropChance": 5.0,
+  "minAmount": 1,
+  "maxAmount": 2,
+  "requirePlayerBreak": true,
+  "allowDefaultDrops": true,
+  "replaceDefaultDrops": false,
+  "requiredTool": "minecraft:diamond_pickaxe",
+  "requiredEnchantLevel": 0,
+  "nbtData": "{display:{Name:\u0027{\"text\":\"Stone Emerald\",\"color\":\"green\",\"italic\":false}\u0027,Lore:[\u0027{\"text\":\"Found in stone blocks\",\"color\":\"gray\",\"italic\":false}\u0027]}}",
+  "command": "",
+  "commandChance": 100.0,
+  "comment": "Example stone drop with NBT data and regeneration",
+  "canRegenerate": true,
+  "brokenBlockReplace": "minecraft:cobblestone",
+  "respawnTime": 60
+}

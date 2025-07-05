@@ -1,0 +1,578 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "prlogo"
+	group: ""
+	icon: "minecraft:writable_book"
+	id: "2284127B3D5B57C6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Al tener como base de progresión &5Mine and Slash&f, deberas completar misiones y asesinar mobs para subir de nivel, este mod tiene una interfaz interesante, pero bastante amplia. Iremos aprendiendo poco a poco"]
+			icon: "mmorpg:material/mining/5"
+			id: "48190D6CD84BE0FB"
+			rewards: [
+				{
+					id: "23B2F79EBA895C00"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+				}
+				{
+					command: "/mine_and_slash give exp @s 400"
+					icon: "minecraft:experience_bottle"
+					id: "358D3F49E02DB859"
+					title: "400 XP"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "En este mundo RPG tendrás que subir de nivel a tu personaje mediante misiones, ejecución de mobs, dungeons y jefes"
+			tasks: [{
+				id: "778AD8EB77619075"
+				title: "Inicio"
+				type: "checkmark"
+			}]
+			title: "Bienvenido a Minecraft Arise"
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48190D6CD84BE0FB"]
+			description: [
+				"Se abrira una interfaz en donde a lado izquierdo de tu personaje tienes 3 distintos apartados, fuerza, inteligencia y destreza. Con cada nivel que subas se te daran puntos de atributos que podras personalizar por ti mismo dependiendo a que camino decidas elegir."
+				""
+				"{image:mmorpg:textures/gui/stats.png width:100 height:100 align:center}"
+			]
+			icon: "mmorpg:currency/affix_common_reroll"
+			id: "234C6405410CBBFB"
+			rewards: [
+				{
+					id: "47053EE2722C5336"
+					item: "mmorpg:potions/reset_points_stat"
+					type: "item"
+				}
+				{
+					command: "/mine_and_slash give exp @s 400"
+					icon: "minecraft:experience_bottle"
+					id: "3C88B7426D4594FC"
+					title: "400 XP"
+					type: "command"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Presiona la letra H"
+			tasks: [{
+				id: "700ED5D8A6740D5D"
+				title: "Atributos"
+				type: "checkmark"
+			}]
+			title: "Mejora tus atributos"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["234C6405410CBBFB"]
+			description: ["En este apartado puedes elegir tu camino, siendo &4Guerrero&f,  &5Mago&f, &6Arquero&r y &bGuardian&f, dependiendo a cual elijas, tus estadisticas subiran para utilizar el arma de cada rol."]
+			icon: {
+				Count: 1
+				id: "mmorpg:weapon/staff/diamond"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4C21EDE055BC4686"
+			rewards: [
+				{
+					id: "4F29384330D81C5A"
+					item: "mmorpg:potions/reset_points_talent"
+					type: "item"
+				}
+				{
+					command: "/mine_and_slash give exp @s 400"
+					icon: "minecraft:experience_bottle"
+					id: "714388FD2915A4D3"
+					title: "400 XP"
+					type: "command"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "En la interfaz, en la derecha tienes el apartado de talentos"
+			tasks: [{
+				id: "45E014350FFF268A"
+				title: "Talentos"
+				type: "checkmark"
+			}]
+			title: "Elige tu camino"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C21EDE055BC4686"]
+			description: [
+				"Podras elegir entre ser &5Hechizero&f, &cGuerrero&f, &dBrujo&f, &6Cantor&f, &2Chamán&f y &3Cazador&f, en donde cada uno tendra sus habilidades, hechizos y conjuros propios, por ejemplo:"
+				"El brujo podra invocar unidades para luchar por él"
+				"El cantor podra brindar curacion tanto a el como a sus unidades"
+				"El chaman tendra poderosos hechizos de rayo y naturaleza"
+				"El hechizero podra lanzar hechizos con magia no natural"
+				"El cazador sera rapido y tendra habilidades de distancia"
+				"El guerrero tendra habilidades para el combate a corta distancia"
+				""
+				"Cada uno cuenta con pasivas únicas que te serviran mucho."
+				"Puedes elegir hasta 2 clases como maximo, suerte escogiendo."
+			]
+			icon: "the_harvest:armor_enchant_rare"
+			id: "2303120656322D1A"
+			rewards: [
+				{
+					id: "74B76D4EA1043D02"
+					item: "mmorpg:potions/reset_points_spell"
+					type: "item"
+				}
+				{
+					id: "7E6EBB8BD51FE143"
+					item: "mmorpg:potions/reset_points_passive"
+					type: "item"
+				}
+				{
+					command: "/mine_and_slash give exp @s 500"
+					icon: "minecraft:experience_bottle"
+					id: "07813136DB1C2277"
+					title: "500 XP"
+					type: "command"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "En el apartado de clases"
+			tasks: [{
+				id: "2FC619AE712C804A"
+				title: "Clase"
+				type: "checkmark"
+			}]
+			title: "Elige tu clase"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2303120656322D1A"]
+			description: ["Tendrás un apartado en donde podras seleccionar que hechizo deseas utilizar, como puedes observar tendras 5 espacios debajo de cada hechizo, estos espacion son para las piedras de asistencia, disponibles desde el nivel 4 de hechizo"]
+			icon: "mmorpg:mob_effects/draconic_blood"
+			id: "7EDA51A78D053617"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6D3F1755A64E3ADA"
+					table_id: 3069765080783968333L
+					type: "choice"
+				}
+				{
+					command: "/mine_and_slash give exp @s 500"
+					icon: "minecraft:experience_bottle"
+					id: "0F00D67CCAD513EA"
+					title: "500 XP"
+					type: "command"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "En la barra de hechizos"
+			tasks: [{
+				id: "1D306A76B1D52D5C"
+				title: "Lanza hechizos"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C21EDE055BC4686"]
+			description: ["Puedes elegir entre una &4Espada&f, un &2Arco&f y un &5Bastón magico&f, cada uno de estos podras utilizarlo dependiendo a tus atributos y estadisticas"]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4526641AED3714D1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7751CC0842D3E629"
+					table_id: 5308909638535911971L
+					type: "choice"
+				}
+				{
+					command: "/mine_and_slash give exp @s 500"
+					icon: "minecraft:experience_bottle"
+					id: "4C50354CF5DC948A"
+					title: "500 XP"
+					type: "command"
+				}
+			]
+			shape: "gear"
+			subtitle: "Elige tu arma"
+			tasks: [{
+				id: "0FDC6B2D2A8DC1D3"
+				title: "Primera arma"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4526641AED3714D1"]
+			description: [
+				"En la mano secundaria puedes llevar un item que complemente tu arma principal."
+				"Para los magos tenemos el &dTomo&f"
+				"Para los arqueros tienes el &aTótem&f"
+				"Para los guerreros tienes el &cEscudo&f"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "12FF6E8B4922E2EB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "446E70E2154E745C"
+					table_id: 6791829443326841137L
+					type: "choice"
+				}
+				{
+					count: 10
+					id: "12165EE2E32C4D39"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Dependiendo a que arma lleves"
+			tasks: [{
+				id: "40A8300C56F10987"
+				title: "Proteccion"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7EDA51A78D053617"]
+			description: [
+				"El favor es un potenciador de loot solo por estar vivo, entre mas tiempo permanezcas con vida, mejor sera tu favor, por lo tanto mejor será tu loot"
+				"{image:mmorpg:textures/gui/favor/5.png width:100 height:100 align:center}"
+			]
+			icon: "mmorpg:skill_gems/skill/int"
+			id: "54663ECC458D8C98"
+			rewards: [{
+				id: "340AF92B084D65B1"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "Una mejora de loot"
+			tasks: [{
+				id: "2327EF2AD8BE4393"
+				title: "Favor"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["54663ECC458D8C98"]
+			description: [
+				"Cada piedra de aumento van en el apartado de la lista de hechizos, en donde debajo de estos encontraras espacios disponibles con el número 100 al costado, este numero indica cuanta aura puedes usar, cada piedra utiliza una cantidad de aura, asi que se sabio cuando vayas a utilizar un aumento"
+				""
+				"{image:mmorpg:item/skill_gems/aura/dex width:100 height:100 align:left}"
+				"{image:mmorpg:item/skill_gems/aura/int width:100 height:100 align:center}"
+				"{image:mmorpg:item/skill_gems/aura/str width:100 height:100 align:right}"
+			]
+			icon: "mmorpg:skill_gems/aura/str"
+			id: "5A474ADC834E6979"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07E427A3D71CDB3E"
+				table_id: 6658461891297624953L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "TU AURA"
+			tasks: [{
+				id: "5E064D32D48E4C86"
+				title: "Aura"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5A474ADC834E6979"]
+			description: [
+				""
+				"{image:mmorpg:textures/gui/bestiary/group_icons/supp_gem.png width:100 height:100 align:center}"
+				"Estas gemas o piedras las obtienes al desguazar un item con un alma del mine and slash, dependiendo a la calidad del item obtienes una piedra de la misma calidad, las cuales sirven para crafteos del mod, o para reparar tu equipo dañado (cada calidad de piedra repara una cantidad de usos diferente)."
+				"Para obtenerlas debes ir al apartado de desguace, a lado izquierdo de la interfaz del mine and slash (forma de yunque), en donde deberas encender la calidad de item que quieres hacer el desguace, una vez encendido, solo debes soltar el item al piso y caminar sobre el, automaticamente se te dara la piedra de equipamiento."
+			]
+			icon: "mmorpg:stone/5"
+			id: "76B6C76E64E598E6"
+			rewards: [
+				{
+					count: 10
+					id: "1938926A0CA12D15"
+					item: "mmorpg:stone/0"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3A7B73D0AE181CBA"
+					item: "mmorpg:stone/1"
+					type: "item"
+				}
+				{
+					id: "062171C219BDB8E2"
+					item: "mmorpg:stone/2"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Desguace"
+			tasks: [{
+				id: "1012303DF9536B67"
+				title: "Piedras"
+				type: "checkmark"
+			}]
+			title: "Piedras de equipamiento"
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["76B6C76E64E598E6"]
+			description: [
+				"Cada uno de estos items te dan caracteristicas que haran a tu personaje mas completo, dependiendo de la calidad pueden darte resistencia, regeneracion o hasta encontrar magia."
+				""
+				"{image:mmorpg:item/jewelry/necklace/iron width:50 height:50 align:left}"
+				"{image:mmorpg:item/jewelry/ring/iron width:50 height:50 align:right}"
+			]
+			icon: {
+				Count: 1
+				id: "mmorpg:jewelry/necklace/diamond"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "30D0815006C8B2B5"
+			rewards: [
+				{
+					command: "/mine_and_slash give gear @s necklace 3 rare 1"
+					icon: {
+						Count: 1
+						id: "mmorpg:jewelry/necklace/iron"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "3F343B0B283FC923"
+					title: "Collar"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash give gear @s ring 3 rare 1"
+					icon: {
+						Count: 1
+						id: "mmorpg:jewelry/ring/iron"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0201D2ACEB6553A6"
+					title: "Anillo"
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Puedes utilizar 1 collar y 2 anillos"
+			tasks: [{
+				id: "1FEF726B953C1DE6"
+				title: "Collares y anillos"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3B96E8C409847987"
+				"30D0815006C8B2B5"
+				"5A474ADC834E6979"
+				"76B6C76E64E598E6"
+				"54663ECC458D8C98"
+			]
+			description: ["Esta mochila es unicamente para cosas del mine and slash, no podras meter otros objetos que no sean del mod, sirve para almacenar todos los objetos que recolectes con respecto al equipo, joyas y demas items. con esto puedes iniciar tu aventura"]
+			icon: "mmorpg:master_bag"
+			id: "0937F194D9563636"
+			rewards: [{
+				id: "09A350DA9C811943"
+				item: "mmorpg:master_bag"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Mochila maestra"
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:zombie_head"
+					id: "5D39C5D8F0718984"
+					title: "Zombie"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "minecraft:skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "05662C32F0F62FD4"
+					title: "Esqueleto"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "Ultimo paso"
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4526641AED3714D1"]
+			description: [
+				"Puedes usar una espada en ambas manos para cambiar al modo doble espada en donde, tendras mas velocidad de ataque, pero nada con que cubrirte, asi que solo dependeras de tu probabilidad de esquivar para aguantar el daño que te hagan."
+				"Aplicaras los efectos de ambas armas equipadas."
+			]
+			icon: "minecraft:book"
+			id: "469DEF1DA71918AD"
+			rewards: [{
+				command: "/mine_and_slash give gear @s sword 3 rare 1"
+				icon: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5049A1E9B72DE986"
+				title: "Secondary"
+				type: "command"
+			}]
+			shape: "diamond"
+			subtitle: "Para armas como la espada"
+			tasks: [{
+				id: "23E1AF002E168352"
+				title: "2 manos"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["30D0815006C8B2B5"]
+			description: [
+				"Para utilizar todas las joyas que se te otorguen, aparte del nivel, necesitas mejorar en el árbol de talentos el engarce de joya. Las joyas son muy fuertes por lo tanto requieren un nivel alto para poder utilizarlas"
+				"{image:mmorpg:item/jewel/str width:100 height:100 align:center}"
+			]
+			icon: "mmorpg:jewel/unique_crafted"
+			id: "3B96E8C409847987"
+			rewards: [{
+				command: "/mine_and_slash give jewel @s viridiana 3 rare 1"
+				icon: "mmorpg:jewel/str"
+				id: "42F581EE2F8541DE"
+				title: "Joya del meteorito"
+				type: "command"
+			}]
+			shape: "octagon"
+			subtitle: "Apartado de joyas en la derecha"
+			tasks: [{
+				id: "4E21FB3D47CD48D6"
+				title: "Joyas"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2303120656322D1A"]
+			description: ["Para cada clase, hay una armadura distinta, mientras que la armadura de placas aumenta la armadura y dureza, la armadura de vestir aumenta la velocidad y la probabilidad de esquivar, mientras que la armadura para magos aumenta la capacidad y regeneracion de maná"]
+			id: "3AFCB5F9E10C239E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2ED6DEA953F3B95B"
+					table_id: 8071844991522689385L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52A4A6C93371A6E1"
+					table_id: 2192109676441681350L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63448BF71477CAED"
+					table_id: 6968119828871062486L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4ED787F528D4BF65"
+					table_id: 6221057054889193257L
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			subtitle: "Hay distintos tipos de armaduras"
+			tasks: [{
+				id: "33F6EE4693F783B7"
+				title: "Armadura"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4526641AED3714D1"]
+			icon: {
+				Count: 1
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3F94A9C328E23941"
+			rewards: [{
+				count: 64
+				id: "16E82F5642797563"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73A8133492EB6766"
+				item: {
+					Count: 1
+					id: "minecraft:bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.5d
+		}
+	]
+	require_sequential_tasks: true
+	subtitle: ["Iniciando tu aventura"]
+	title: "Prólogo"
+}
