@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/spear_0",
+  "textures": {
+    "spear_0": "roe_weapons:block/spear_0",
+    "particle": "minecraft:item/trident"
+  }
+}

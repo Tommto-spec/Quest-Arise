@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/cursed_staff",
+  "textures": {
+    "spear_7": "roe_weapons:block/cursed_spear",
+    "particle": "minecraft:item/fishing_rod_cast"
+  }
+}

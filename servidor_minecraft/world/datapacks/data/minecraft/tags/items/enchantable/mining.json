@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "roe_weapons:hammer_1",
+    "roe_weapons:hammer_2",
+    "roe_weapons:hammer_3",
+    "roe_weapons:hammer_4",
+    "roe_weapons:hammer_5",
+    "roe_weapons:hammer_6",
+    "roe_weapons:hammer_7",
+    "roe_weapons:cursed_hammer",
+    "#minecraft:pickaxes"
+  ]
+}

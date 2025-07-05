@@ -1,0 +1,15 @@
+{
+  "parent": "roe_weapons:custom/shield_6",
+  "textures": {
+    "0": "roe_weapons:block/shield_6",
+    "particle": "minecraft:item/empty_armor_slot_shield"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "roe_weapons:item/shield_6_0"
+    }
+  ]
+}

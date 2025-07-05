@@ -55,7 +55,19 @@
 					Damage: 0
 				}
 			}
-			title: "Tridente"
+			title: "Trident"
+			type: "command"
+		}
+		{
+			command: "/mine_and_slash give gear @s axe 3 rare 1"
+			icon: {
+				Count: 1
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "Axe"
 			type: "command"
 		}
 	]

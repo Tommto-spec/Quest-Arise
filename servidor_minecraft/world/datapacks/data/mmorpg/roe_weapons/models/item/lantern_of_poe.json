@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/lantern_of_poe",
+  "textures": {
+    "1": "roe_weapons:block/lanternofpoe",
+    "particle": "minecraft:item/soul_lantern"
+  }
+}

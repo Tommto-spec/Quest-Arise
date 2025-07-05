@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/totem_5",
+  "textures": {
+    "0": "roe_weapons:block/totem_5",
+    "particle": "minecraft:item/totem_of_undying"
+  }
+}

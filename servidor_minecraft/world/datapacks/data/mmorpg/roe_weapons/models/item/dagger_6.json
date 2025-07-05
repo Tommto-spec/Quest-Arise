@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/dagger_6",
+  "textures": {
+    "dagger_0": "roe_weapons:block/dagger_6",
+    "particle": "minecraft:item/empty_slot_sword"
+  }
+}

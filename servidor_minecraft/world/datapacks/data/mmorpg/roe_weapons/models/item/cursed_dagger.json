@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/cursed_dagger",
+  "textures": {
+    "dagger_7": "roe_weapons:block/cursed_sword",
+    "particle": "minecraft:item/netherite_sword"
+  }
+}

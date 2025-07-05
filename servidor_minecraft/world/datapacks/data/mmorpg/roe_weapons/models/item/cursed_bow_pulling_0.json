@@ -1,0 +1,8 @@
+{
+  "parent": "roe_weapons:custom/cursed_bow_pulling_0",
+  "textures": {
+    "0": "roe_weapons:block/cursed_bow",
+    "1": "roe_weapons:block/cursed_arrow",
+    "particle": "minecraft:item/bow"
+  }
+}

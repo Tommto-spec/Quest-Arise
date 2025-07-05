@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "the_harvest"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+          "X": {
+            "item": "minecraft:diamond_block"
+          },
+          "Y": {
+            "item": "the_harvest:primal"
+          }
+        },
+        "pattern": [
+          "YYY",
+          "YXY",
+          "YYY"
+        ],
+        "result": {
+          "item": "mmorpg:currency/entangled_unique_reroll"
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}

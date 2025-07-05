@@ -1,0 +1,23 @@
+{
+  "parent": "bettercombat:claymore",
+  "attributes": {
+    "attack_range": 3.5,
+    "range_bonus": 0,
+    "two_handed": true,
+    "pose": "bettercombat:pose_two_handed_bow"
+    "attacks": [
+      {
+        "angle": 100
+      },
+      {
+        "damageMultiplier": 0.1 
+      },
+      {
+        "damageMultiplier": 0.3,
+        "angle" = 90
+      }
+    ]
+  }
+}
+
+https://github.com/ZsoltMolnarrr/BetterCombat/tree/1.21.1/common/src/main/resources/data/bettercombat/weapon_attributes

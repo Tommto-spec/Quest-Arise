@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/scythe_7",
+  "textures": {
+    "scythe_0": "roe_weapons:block/scythe_7",
+    "particle": "minecraft:item/empty_slot_hoe"
+  }
+}

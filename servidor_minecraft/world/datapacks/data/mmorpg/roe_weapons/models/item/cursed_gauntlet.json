@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/cursed_gauntlet",
+  "textures": {
+    "0": "roe_weapons:block/cursed_gauntlet",
+    "particle": "minecraft:item/empty_slot_ingot"
+  }
+}

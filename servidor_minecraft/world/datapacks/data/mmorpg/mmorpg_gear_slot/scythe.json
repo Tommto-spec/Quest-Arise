@@ -1,0 +1,11 @@
+{
+  "fam": "Weapon",
+  "id": "scythe",
+  "model_num": 19,
+  "weapon_data": {
+    "damage_multiplier": 1.3,
+    "energy_cost_per_mob_attacked": 3.0,
+    "energy_cost_per_swing": 5.2
+  },
+  "weight": 2000
+}

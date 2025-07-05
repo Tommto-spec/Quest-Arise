@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/hammer_7",
+  "textures": {
+    "sword_0": "roe_weapons:block/hammer_7",
+    "particle": "minecraft:item/empty_slot_pickaxe"
+  }
+}

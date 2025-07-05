@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/sword_5",
+  "textures": {
+    "sword_0": "roe_weapons:block/sword_5",
+    "particle": "minecraft:item/empty_slot_sword"
+  }
+}

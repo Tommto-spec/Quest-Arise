@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/cursed_shield_blocking",
+  "textures": {
+    "0": "roe_weapons:block/cursed_shield",
+    "particle": "minecraft:item/empty_armor_slot_shield"
+  }
+}

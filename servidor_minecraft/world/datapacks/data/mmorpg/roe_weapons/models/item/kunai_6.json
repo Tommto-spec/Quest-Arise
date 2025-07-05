@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/kunai_6",
+  "textures": {
+    "sword_0": "roe_weapons:block/kunai_6",
+    "particle": "minecraft:item/spectral_arrow"
+  }
+}

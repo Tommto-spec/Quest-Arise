@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/wirts_leg",
+  "textures": {
+    "0": "roe_weapons:block/wirts_leg",
+    "particle": "minecraft:item/empty_slot_sword"
+  }
+}

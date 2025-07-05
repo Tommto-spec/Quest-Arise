@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/tome_5",
+  "textures": {
+    "0": "roe_weapons:block/tome_5",
+    "particle": "minecraft:item/book"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/crossbow_7_charged",
+  "textures": {
+    "0": "roe_weapons:block/crossbow_7",
+    "particle": "minecraft:item/bow"
+  }
+}

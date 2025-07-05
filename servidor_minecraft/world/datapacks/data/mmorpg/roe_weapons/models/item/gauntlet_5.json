@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/gauntlet_5",
+  "textures": {
+    "0": "roe_weapons:block/gauntlet_5",
+    "particle": "minecraft:item/empty_slot_ingot"
+  }
+}

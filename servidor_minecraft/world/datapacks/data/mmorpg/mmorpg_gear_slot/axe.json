@@ -1,0 +1,11 @@
+{
+  "fam": "Weapon",
+  "id": "axe",
+  "model_num": 18,
+  "weapon_data": {
+    "damage_multiplier": 0.9,
+    "energy_cost_per_mob_attacked": 2.5,
+    "energy_cost_per_swing": 4.5
+  },
+  "weight": 1300
+}

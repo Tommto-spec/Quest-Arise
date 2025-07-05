@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/dragon_slayer",
+  "textures": {
+    "0": "roe_weapons:block/dragon_slayer",
+    "particle": "minecraft:item/iron_sword"
+  }
+}

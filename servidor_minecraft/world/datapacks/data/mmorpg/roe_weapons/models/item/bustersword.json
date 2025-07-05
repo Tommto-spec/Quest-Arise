@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/bustersword",
+  "textures": {
+    "0": "roe_weapons:block/bustersword",
+    "particle": "minecraft:item/iron_sword"
+  }
+}

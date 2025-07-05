@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/tower_shield_blocking_4",
+  "textures": {
+    "0": "roe_weapons:block/tower_shield_4",
+    "particle": "minecraft:item/empty_armor_slot_shield"
+  }
+}

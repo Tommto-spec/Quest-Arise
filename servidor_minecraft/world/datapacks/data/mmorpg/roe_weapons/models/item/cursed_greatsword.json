@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/cursed_greatsword",
+  "textures": {
+    "sword_7": "roe_weapons:block/cursed_sword",
+    "particle": "minecraft:item/iron_sword"
+  }
+}

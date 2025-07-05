@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/buckler_shield_blocking_1",
+  "textures": {
+    "0": "roe_weapons:block/buckler_shield_1",
+    "particle": "minecraft:item/empty_armor_slot_shield"
+  }
+}

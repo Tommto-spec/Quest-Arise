@@ -1,0 +1,9 @@
+{
+  "id": "bonus_chains",
+  "num_provider": {
+    "type": "STAT_DATA",
+    "calc": ""
+  },
+  "number_id": "bonus_chains",
+  "ser": "add_to_number"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/bow_7_pulling_1",
+  "textures": {
+    "2": "roe_weapons:block/bow_7",
+    "particle": "minecraft:item/bow"
+  }
+}

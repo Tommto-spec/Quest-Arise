@@ -1,0 +1,18 @@
+{
+  "can_dual_wield": true,
+  "damage_validity_check": {
+    "contains_in_dmg_id": [
+      "ammo",
+      "bullet",
+      "dart",
+      "missile"
+    ],
+    "source_check": "DIRECT_ATTACK", "RANGED_ATTACK"
+    "tag_and_id_check": "MATCH_ANY",
+    "valid_proj_dmg_id": []
+  },
+  "id": "dagger",
+  "isProjectile": true,
+  "range": "MELEE",
+  "style": "DEX"
+}

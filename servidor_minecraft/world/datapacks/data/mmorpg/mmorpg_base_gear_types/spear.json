@@ -1,0 +1,37 @@
+{
+  "base_stats": [
+    {
+      "type": "FLAT",
+      "max": 6.0,
+      "min": 2.0,
+      "stat": "weapon_damage"
+    }
+  ],
+  "gear_slot": "spear",
+  "guid": "spear",
+  "possible_items": [
+    {
+      "item_id": "minecraft:spear",
+      "min_rar": "common",
+      "weight": 1000
+    }
+  ],
+  "req": {
+    "base_req": {},
+    "scaling_req": {
+      "strength": 0.5, "dexterity": 0.2
+    }
+  },
+  "style": "STR",
+  "tags": {
+    "tags": [
+      "dexterity",
+      "spear",
+      "strength",
+      "melee_weapon",
+      "weapon_family"
+    ]
+  },
+  "weapon_type": "spear",
+  "weight": 1000
+}

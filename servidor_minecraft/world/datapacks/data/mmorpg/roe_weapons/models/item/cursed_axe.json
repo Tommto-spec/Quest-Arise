@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/cursed_axe",
+  "textures": {
+    "axe_7": "roe_weapons:block/cursed_axe",
+    "particle": "minecraft:item/netherite_axe"
+  }
+}

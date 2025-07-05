@@ -1,0 +1,18 @@
+{
+  "bow_pulling": {
+    "sounds": [
+      {
+        "name": "roe_weapons:bow_pulling",
+        "stream": false
+      }
+    ]
+  },
+  "bow_fire": {
+    "sounds": [
+      {
+        "name": "roe_weapons:bow_fire",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "can_dual_wield": true,
+  "damage_validity_check": {
+    "contains_in_dmg_id": [
+      "scythe",
+    ],
+    "source_check": "ANY",
+    "tag_and_id_check": "DIRECT_ATTACK",
+    "valid_proj_dmg_id": []
+  },
+  "id": "scythe",
+  "isProjectile": false,
+  "range": "MELEE",
+  "style": "STR"
+}

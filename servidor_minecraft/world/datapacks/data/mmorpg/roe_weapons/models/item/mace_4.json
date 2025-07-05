@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/mace_4",
+  "textures": {
+    "mace_0": "roe_weapons:block/mace_4",
+    "particle": "minecraft:item/empty_slot_pickaxe"
+  }
+}

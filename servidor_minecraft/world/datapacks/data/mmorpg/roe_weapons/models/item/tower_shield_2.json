@@ -1,0 +1,15 @@
+{
+  "parent": "roe_weapons:custom/tower_shield_2",
+  "textures": {
+    "0": "roe_weapons:block/tower_shield_2",
+    "particle": "minecraft:item/empty_armor_slot_shield"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "roe_weapons:item/tower_shield_2_0"
+    }
+  ]
+}

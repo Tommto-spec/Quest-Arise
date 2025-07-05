@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/staff_2",
+  "textures": {
+    "staff_2": "roe_weapons:block/staff_2",
+    "particle": "minecraft:item/fishing_rod_cast"
+  }
+}

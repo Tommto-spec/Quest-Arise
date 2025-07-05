@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/rapier_7",
+  "textures": {
+    "0": "roe_weapons:block/rapier_7",
+    "particle": "minecraft:item/empty_slot_sword"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/cursed_hammer",
+  "textures": {
+    "mace_7": "roe_weapons:block/cursed_hammer",
+    "particle": "minecraft:item/netherite_pickaxe"
+  }
+}

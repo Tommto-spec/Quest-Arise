@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/order_of_despair",
+  "textures": {
+    "3": "roe_weapons:block/order_of_despair",
+    "particle": "minecraft:item/book"
+  }
+}

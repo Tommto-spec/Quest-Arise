@@ -726,15 +726,107 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/ladder": {
+  "sophisticatedbackpacks:recipes/misc/copper_backpack": {
     "criteria": {
-      "has_stick": "2025-07-05 01:02:59 +0000"
+      "has_backpack": "2025-07-05 00:43:28 +0000"
     },
     "done": true
   },
-  "swem:recipes/misc/pasture_white_horse": {
+  "sophisticatedbackpacks:recipes/misc/iron_backpack": {
     "criteria": {
-      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+      "has_backpack": "2025-07-05 00:43:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-07-05 00:47:32 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/decorations/shop": {
+    "criteria": {
+      "has_emeralds": "2025-07-05 00:47:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-07-05 00:47:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-07-05 00:48:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2025-07-05 00:48:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2025-07-05 00:48:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_chestplate": "2025-07-05 00:48:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_chestplate": "2025-07-05 00:48:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-07-05 00:51:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2025-07-05 00:52:34 +0000",
+      "minecraft:magma_cube": "2025-07-05 00:56:24 +0000",
+      "minecraft:zombie": "2025-07-05 00:51:43 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2025-07-05 00:51:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2025-07-05 00:52:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2025-07-05 00:52:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2025-07-05 00:52:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2025-07-05 00:52:22 +0000"
     },
     "done": true
   },
@@ -744,27 +836,69 @@
     },
     "done": true
   },
-  "swem:recipes/misc/pasture_cyan_care": {
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2025-07-05 00:52:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2025-07-05 00:52:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-07-05 00:52:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2025-07-05 00:53:45 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/food/gold_pile": {
+    "criteria": {
+      "has_item": "2025-07-05 00:53:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2025-07-05 00:53:45 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_small_blimp": {
+    "criteria": {
+      "location0": "2025-07-05 00:54:25 +0000"
+    },
+    "done": true
+  },
+  "lootr:social": {
+    "criteria": {
+      "opened_chest": "2025-07-05 00:56:01 +0000"
+    },
+    "done": false
+  },
+  "lootr:1chest": {
+    "criteria": {
+      "opened_chest": "2025-07-05 00:56:01 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_white_horse": {
     "criteria": {
       "has_iron_ingot": "2025-07-05 00:56:58 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/combat/diamond_sword": {
+  "swem:recipes/misc/pasture_cyan_care": {
     "criteria": {
-      "has_diamond": "2025-07-05 00:56:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/jukebox": {
-    "criteria": {
-      "has_diamond": "2025-07-05 00:56:59 +0000"
-    },
-    "done": true
-  },
-  "tombstone:adventure/find_grave_dust": {
-    "criteria": {
-      "from_undead": "2025-07-05 00:57:31 +0000"
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
     },
     "done": true
   },
@@ -786,57 +920,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/diamond_chestplate": {
-    "criteria": {
-      "has_diamond": "2025-07-05 00:56:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_axe": {
-    "criteria": {
-      "has_stick": "2025-07-05 01:02:59 +0000"
-    },
-    "done": true
-  },
   "swem:recipes/misc/pasture_lime_care": {
     "criteria": {
       "has_iron_ingot": "2025-07-05 00:56:58 +0000"
     },
     "done": true
   },
-  "swem:recipes/misc/western_fence_acacia": {
-    "criteria": {
-      "has_stick": "2025-07-05 01:02:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/shoot_arrow": {
-    "criteria": {
-      "shot_arrow": "2025-07-05 00:51:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2025-07-05 00:48:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/shiny_gear": {
-    "criteria": {
-      "diamond_helmet": "2025-07-05 00:48:17 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/shears": {
     "criteria": {
       "has_iron_ingot": "2025-07-05 00:56:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/golden_carrot": {
-    "criteria": {
-      "has_gold_nugget": "2025-07-05 00:53:45 +0000"
     },
     "done": true
   },
@@ -852,41 +944,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/diamond_pickaxe": {
-    "criteria": {
-      "has_diamond": "2025-07-05 00:56:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "minecraft:skeleton": "2025-07-05 00:52:34 +0000",
-      "minecraft:magma_cube": "2025-07-05 00:56:24 +0000",
-      "minecraft:zombie": "2025-07-05 00:51:43 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/building_blocks/iron_block": {
     "criteria": {
       "has_iron_ingot": "2025-07-05 00:56:58 +0000"
-    },
-    "done": true
-  },
-  "swem:recipes/misc/toy_string_treats": {
-    "criteria": {
-      "has_string": "2025-07-05 00:57:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/tripwire_hook": {
-    "criteria": {
-      "has_string": "2025-07-05 00:57:04 +0000"
-    },
-    "done": true
-  },
-  "swem:recipes/decorations/shop": {
-    "criteria": {
-      "has_emeralds": "2025-07-05 00:47:46 +0000"
     },
     "done": true
   },
@@ -896,51 +956,15 @@
     },
     "done": true
   },
-  "swem:recipes/misc/plate_diamond": {
-    "criteria": {
-      "has_ingredient": "2025-07-05 00:56:59 +0000"
-    },
-    "done": true
-  },
   "swem:recipes/misc/tack_box_lime": {
     "criteria": {
       "has_iron_ingot": "2025-07-05 00:56:58 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/candle": {
-    "criteria": {
-      "has_string": "2025-07-05 00:57:04 +0000"
-    },
-    "done": true
-  },
   "swem:recipes/misc/tack_box_blue": {
     "criteria": {
       "has_iron_ingot": "2025-07-05 00:56:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/diamond_hoe": {
-    "criteria": {
-      "has_diamond": "2025-07-05 00:56:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/diamond_shovel": {
-    "criteria": {
-      "has_diamond": "2025-07-05 00:56:59 +0000"
-    },
-    "done": true
-  },
-  "tombstone:adventure/first_knowledge": {
-    "criteria": {
-      "coded_trigger": "2025-07-05 00:57:43 +0000"
-    },
-    "done": true
-  },
-  "swem:recipes/misc/pasture_fence_whitewash": {
-    "criteria": {
-      "has_stick": "2025-07-05 01:02:59 +0000"
     },
     "done": true
   },
@@ -961,12 +985,6 @@
       "has_iron_ingot": "2025-07-05 00:56:58 +0000"
     },
     "done": true
-  },
-  "lootr:social": {
-    "criteria": {
-      "opened_chest": "2025-07-05 00:56:01 +0000"
-    },
-    "done": false
   },
   "mca:recipes/misc/comb": {
     "criteria": {
@@ -992,21 +1010,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/campfire": {
-    "criteria": {
-      "has_stick": "2025-07-05 01:02:59 +0000"
-    },
-    "done": true
-  },
   "swem:recipes/misc/pasture_gray_care": {
     "criteria": {
       "has_iron_ingot": "2025-07-05 00:56:58 +0000"
-    },
-    "done": true
-  },
-  "dungeons_arise:find_abandoned_temple": {
-    "criteria": {
-      "location0": "2025-07-05 01:00:22 +0000"
     },
     "done": true
   },
@@ -1016,63 +1022,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/wooden_hoe": {
-    "criteria": {
-      "has_stick": "2025-07-05 01:02:59 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/iron_shovel": {
     "criteria": {
       "has_iron_ingot": "2025-07-05 00:56:58 +0000"
     },
     "done": true
   },
-  "swem:recipes/misc/western_fence_spruce": {
-    "criteria": {
-      "has_stick": "2025-07-05 01:02:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_helmet": {
-    "criteria": {
-      "has_diamond": "2025-07-05 00:56:59 +0000"
-    },
-    "done": true
-  },
-  "swem:recipes/misc/pasture_fence_acacia": {
-    "criteria": {
-      "has_stick": "2025-07-05 01:02:59 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/food/gold_pile": {
-    "criteria": {
-      "has_item": "2025-07-05 00:53:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_shovel": {
-    "criteria": {
-      "has_stick": "2025-07-05 01:02:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dispenser": {
-    "criteria": {
-      "has_bow": "2025-07-05 00:47:32 +0000"
-    },
-    "done": true
-  },
   "swem:recipes/misc/pasture_pink_care": {
     "criteria": {
       "has_iron_ingot": "2025-07-05 00:56:58 +0000"
-    },
-    "done": true
-  },
-  "paraglider:recipes/misc/paraglider": {
-    "criteria": {
-      "has_stick": "2025-07-05 01:02:59 +0000"
     },
     "done": true
   },
@@ -1088,12 +1046,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/wooden_sword": {
-    "criteria": {
-      "has_stick": "2025-07-05 01:02:59 +0000"
-    },
-    "done": true
-  },
   "swem:recipes/misc/pasture_purple_horse": {
     "criteria": {
       "has_iron_ingot": "2025-07-05 00:56:58 +0000"
@@ -1106,51 +1058,15 @@
     },
     "done": true
   },
-  "tombstone:recipes/from_grave_dust": {
-    "criteria": {
-      "has_ingredient": "2025-07-05 00:57:53 +0000"
-    },
-    "done": true
-  },
-  "tombstone:adventure/easy_opening": {
-    "criteria": {
-      "coded_trigger": "2025-07-05 01:00:58 +0000"
-    },
-    "done": true
-  },
   "swem:recipes/misc/tack_box_magenta": {
     "criteria": {
       "has_iron_ingot": "2025-07-05 00:56:58 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/diamond_block": {
-    "criteria": {
-      "has_diamond": "2025-07-05 00:56:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_bed": {
-    "criteria": {
-      "has_white_wool": "2025-07-05 00:52:22 +0000"
-    },
-    "done": true
-  },
   "swem:recipes/misc/pasture_cyan_horse": {
     "criteria": {
       "has_iron_ingot": "2025-07-05 00:56:58 +0000"
-    },
-    "done": true
-  },
-  "swem:recipes/misc/western_fence_oak": {
-    "criteria": {
-      "has_stick": "2025-07-05 01:02:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/mine_diamond": {
-    "criteria": {
-      "diamond": "2025-07-05 00:56:59 +0000"
     },
     "done": true
   },
@@ -1172,33 +1088,9 @@
     },
     "done": true
   },
-  "lootr:1chest": {
-    "criteria": {
-      "opened_chest": "2025-07-05 00:56:01 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2025-07-05 00:56:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/obtain_armor": {
-    "criteria": {
-      "iron_chestplate": "2025-07-05 00:48:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_leggings": {
-    "criteria": {
-      "has_diamond": "2025-07-05 00:56:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_nugget_from_smelting": {
-    "criteria": {
-      "has_iron_chestplate": "2025-07-05 00:48:18 +0000"
     },
     "done": true
   },
@@ -1238,12 +1130,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/bow": {
-    "criteria": {
-      "has_string": "2025-07-05 00:57:04 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
       "has_iron_ingot": "2025-07-05 00:56:58 +0000"
@@ -1262,27 +1148,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
-    "criteria": {
-      "has_gold_nugget": "2025-07-05 00:53:45 +0000"
-    },
-    "done": true
-  },
   "swem:recipes/misc/pasture_red_horse": {
     "criteria": {
       "has_iron_ingot": "2025-07-05 00:56:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/painting": {
-    "criteria": {
-      "has_wool": "2025-07-05 00:52:22 +0000"
-    },
-    "done": true
-  },
-  "swem:recipes/misc/pasture_fence_spruce": {
-    "criteria": {
-      "has_stick": "2025-07-05 01:02:59 +0000"
     },
     "done": true
   },
@@ -1304,27 +1172,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/fishing_rod": {
-    "criteria": {
-      "has_string": "2025-07-05 00:57:04 +0000"
-    },
-    "done": true
-  },
   "swem:recipes/misc/pasture_yellow_care": {
     "criteria": {
       "has_iron_ingot": "2025-07-05 00:56:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/emerald_block": {
-    "criteria": {
-      "has_emerald": "2025-07-05 00:47:46 +0000"
-    },
-    "done": true
-  },
-  "swem:recipes/misc/western_fence_jungle": {
-    "criteria": {
-      "has_stick": "2025-07-05 01:02:59 +0000"
     },
     "done": true
   },
@@ -1352,18 +1202,6 @@
     },
     "done": true
   },
-  "swem:recipes/misc/pasture_fence_oak": {
-    "criteria": {
-      "has_stick": "2025-07-05 01:02:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bone_meal": {
-    "criteria": {
-      "has_bone": "2025-07-05 00:52:37 +0000"
-    },
-    "done": true
-  },
   "swem:recipes/misc/tack_box_green": {
     "criteria": {
       "has_iron_ingot": "2025-07-05 00:56:58 +0000"
@@ -1382,33 +1220,9 @@
     },
     "done": true
   },
-  "swem:recipes/misc/pasture_fence_birch": {
-    "criteria": {
-      "has_stick": "2025-07-05 01:02:59 +0000"
-    },
-    "done": true
-  },
-  "swem:recipes/misc/western_fence_birch": {
-    "criteria": {
-      "has_stick": "2025-07-05 01:02:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_carpet": {
-    "criteria": {
-      "has_white_wool": "2025-07-05 00:52:22 +0000"
-    },
-    "done": true
-  },
   "swem:recipes/misc/tack_box_black": {
     "criteria": {
       "has_iron_ingot": "2025-07-05 00:56:58 +0000"
-    },
-    "done": true
-  },
-  "swem:recipes/misc/pasture_fence_jungle": {
-    "criteria": {
-      "has_stick": "2025-07-05 01:02:59 +0000"
     },
     "done": true
   },
@@ -1421,12 +1235,6 @@
   "swem:recipes/misc/tack_box_light_blue": {
     "criteria": {
       "has_iron_ingot": "2025-07-05 00:56:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_boots": {
-    "criteria": {
-      "has_diamond": "2025-07-05 00:56:59 +0000"
     },
     "done": true
   },
@@ -1484,57 +1292,15 @@
     },
     "done": true
   },
-  "swem:recipes/misc/rivet_diamond": {
-    "criteria": {
-      "has_ingredient": "2025-07-05 00:56:59 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_mutton": {
-    "criteria": {
-      "has_mutton": "2025-07-05 00:52:24 +0000"
-    },
-    "done": true
-  },
   "swem:recipes/misc/pasture_brown_horse": {
     "criteria": {
       "has_iron_ingot": "2025-07-05 00:56:58 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/white_banner": {
-    "criteria": {
-      "has_white_wool": "2025-07-05 00:52:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_pickaxe": {
-    "criteria": {
-      "has_stick": "2025-07-05 01:02:59 +0000"
-    },
-    "done": true
-  },
   "swem:recipes/misc/rivet_iron": {
     "criteria": {
       "has_ingredient": "2025-07-05 00:56:58 +0000"
-    },
-    "done": true
-  },
-  "dungeons_arise:find_small_blimp": {
-    "criteria": {
-      "location0": "2025-07-05 00:54:25 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/copper_backpack": {
-    "criteria": {
-      "has_backpack": "2025-07-05 00:43:28 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
-    "criteria": {
-      "has_mutton": "2025-07-05 00:52:24 +0000"
     },
     "done": true
   },
@@ -1550,33 +1316,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/white_wool_from_string": {
-    "criteria": {
-      "has_string": "2025-07-05 00:57:04 +0000"
-    },
-    "done": true
-  },
-  "swem:recipes/misc/western_fence_whitewash": {
-    "criteria": {
-      "has_stick": "2025-07-05 01:02:59 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/iron_axe": {
     "criteria": {
       "has_iron_ingot": "2025-07-05 00:56:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_nugget_from_blasting": {
-    "criteria": {
-      "has_iron_chestplate": "2025-07-05 00:48:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "minecraft:zombie": "2025-07-05 00:51:43 +0000"
     },
     "done": true
   },
@@ -1610,9 +1352,129 @@
     },
     "done": true
   },
-  "tombstone:adventure/ashes_and_bones": {
+  "minecraft:recipes/redstone/iron_door": {
     "criteria": {
-      "coded_trigger": "2025-07-05 00:57:43 +0000"
+      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/plate_diamond": {
+    "criteria": {
+      "has_ingredient": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/rivet_diamond": {
+    "criteria": {
+      "has_ingredient": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2025-07-05 00:56:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/toy_string_treats": {
+    "criteria": {
+      "has_string": "2025-07-05 00:57:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-07-05 00:57:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2025-07-05 00:57:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-07-05 00:57:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-07-05 00:57:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-07-05 00:57:04 +0000"
     },
     "done": true
   },
@@ -1622,9 +1484,159 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/diamond_axe": {
+  "tombstone:adventure/find_grave_dust": {
     "criteria": {
-      "has_diamond": "2025-07-05 00:56:59 +0000"
+      "from_undead": "2025-07-05 00:57:31 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_knowledge": {
+    "criteria": {
+      "coded_trigger": "2025-07-05 00:57:43 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/ashes_and_bones": {
+    "criteria": {
+      "coded_trigger": "2025-07-05 00:57:43 +0000"
+    },
+    "done": true
+  },
+  "tombstone:recipes/from_grave_dust": {
+    "criteria": {
+      "has_ingredient": "2025-07-05 00:57:53 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_abandoned_temple": {
+    "criteria": {
+      "location0": "2025-07-05 01:00:22 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/easy_opening": {
+    "criteria": {
+      "coded_trigger": "2025-07-05 01:00:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/western_fence_acacia": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_fence_whitewash": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/western_fence_spruce": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_fence_acacia": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "paraglider:recipes/misc/paraglider": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/western_fence_oak": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_fence_spruce": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/western_fence_jungle": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_fence_oak": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_fence_birch": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/western_fence_birch": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/pasture_fence_jungle": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
+    },
+    "done": true
+  },
+  "swem:recipes/misc/western_fence_whitewash": {
+    "criteria": {
+      "has_stick": "2025-07-05 01:02:59 +0000"
     },
     "done": true
   },
@@ -1640,15 +1652,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/iron_door": {
+  "minecraft:adventure/sleep_in_bed": {
     "criteria": {
-      "has_iron_ingot": "2025-07-05 00:56:58 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/iron_backpack": {
-    "criteria": {
-      "has_backpack": "2025-07-05 00:43:28 +0000"
+      "slept_in_bed": "2025-07-05 01:41:28 +0000"
     },
     "done": true
   },

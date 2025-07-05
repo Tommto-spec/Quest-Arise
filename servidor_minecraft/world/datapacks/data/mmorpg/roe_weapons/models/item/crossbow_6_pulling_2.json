@@ -1,0 +1,7 @@
+{
+  "parent": "roe_weapons:custom/crossbow_6_pulling_2",
+  "textures": {
+    "0": "roe_weapons:block/crossbow_6",
+    "particle": "minecraft:item/bow"
+  }
+}
